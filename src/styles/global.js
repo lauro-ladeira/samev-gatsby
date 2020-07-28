@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
   
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,

@@ -33,6 +33,7 @@ function Navbar() {
             <S.MenuLink to="/contato" activeClassName="active">Contato</S.MenuLink>
           </S.MenuItem>
         </S.MenuContainer>
+        <S.Circle active={active ? 'activeMenu' : null} />
         <S.Burger onClick={toggleClassName}>
           <S.BurgerLine active={active ? "activeLine1" : null}></S.BurgerLine>
           <S.BurgerLine active={active ? "activeLine2" : null}></S.BurgerLine>
