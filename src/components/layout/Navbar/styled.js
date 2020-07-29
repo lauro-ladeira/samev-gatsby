@@ -37,7 +37,11 @@ export const MenuContainer = styled.ul`
     margin: 0 25%;
     position: fixed;
     top: 80px;
-    transition: ease-out left .3s;
+
+    /**coloquei 1.3s tava .3 */
+    /* transition: ease-out left .7s; */
+    transition: left 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+    
     width: 75%;
     z-index: 99;
 
@@ -94,20 +98,27 @@ export const Circle = styled.div`
   width: 50px;
   border-radius: 50%;
 
+  transition: box-shadow 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+
+  box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+
   ${props =>
     props.active === "activeMenu" &&
     css`
-      box-shadow: 0 0 0 130vw rgba(9, 7, 97, 0.8);
-      border-radius: 0%;
-      transition: border-radius 0.7s, height 0.5ms, left 0.5s,
-        box-shadow 0.6s cubic-bezier(0.19, 1, 0.22, 1);
-      height: 100vh;
+      /* box-shadow: 0 0 0 130vw rgba(9, 7, 97, 0.8); */
+      /* transition: border-radius 0.7s, height 0.5s, left 0.5s,
+        box-shadow 0.6s cubic-bezier(0.19, 1, 0.22, 1); */
+      box-shadow: 0 0 0 130vw #fff, 0 0 0 130vh #fff;
+      /* border-radius: 0%; */
+
+      /* height: 100vh; */
+      /* height: 100vh;
       left: 0;
       margin: 0 25%;
       position: fixed;
       top: 0;
       width: 100%;
-      z-index: 9;
+      z-index: 9; */
     `}
   `}
 `
