@@ -14,14 +14,14 @@ export const HeaderWrapper = styled.div`
   background-position: center;
 
   width: 100%;
-  height: 80vh;
+  height: calc(100vh - 80px);
 `
 
 export const HeaderContainer = styled.div`
   margin: 0 auto;
   display: flex;
   width: 75%;
-  padding-top: 150px;
+  padding-top: 35vh;
 
   ${media.lessThan("large")`
     width: 85%;
@@ -31,13 +31,15 @@ export const HeaderContainer = styled.div`
   ${media.lessThan("medium")`
    flex-direction: column;
   `}
-
 `
 
 export const TitleContainer = styled.div`
-  width: 70%;
+  width: 75%;
   height: 100%;
 
+  ${media.lessThan("large")`
+    width: 85%;
+  `}
   ${media.lessThan("medium")`
     width: 100%;
   `}
@@ -51,7 +53,7 @@ export const ButtonContainer = styled.div`
   justify-content: center;
   align-items: flex-end;
 
-  padding: 30px 10px;
+  padding: 30px 10px 0;
 
   ${media.lessThan("medium")`
     justify-content: flex-start;
@@ -63,57 +65,65 @@ export const ButtonContainer = styled.div`
 `
 
 export const Title = styled.h1`
+  display: inline-block;
   font-size: 48px;
-  line-height: 56px;
+  line-height: 62px;
   color: #ffffff;
   font-family: 'Roboto Condensed';
   font-weight: bold;
 
   ${media.lessThan("910px")`
     font-size: 42px;
-    line-height: 48px;
+    line-height: 50px;
   `}
 
-  ${media.lessThan("470px")`
-    font-size: 24px;
-    line-height: 32px;
+  ${media.lessThan("630px")`
+    display:block;
   `}
 
   ${media.lessThan("388px")`
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 45px;
   `}
+
 `
 
 export const Description = styled(Title)`
   font-size: 36px;
-  line-height: 42px;
+  line-height: 46px;
   
   ${media.lessThan("910px")`
     font-size: 32px;
-    line-height: 38px;
-  `}
-
-  ${media.lessThan("470px")`
-    font-size: 20px;
-    line-height: 24px;
+    line-height: 42px;
   `}
 
   ${media.lessThan("388px")`
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 26px;
+    line-height: 39px;
   `}
 `
 
-
 export const Color = styled(Description)`
   color: #f6ab00;
+`
+export const ColorSmaller = styled(Description)`
+  display: block;
+  color: #f6ab00;
+  font-size: 24px;
+
+  ${media.lessThan("910px")`
+    font-size: 20px;
+  `}
+
+  ${media.lessThan("388px")`
+    font-size: 20px;
+  `}
 `
 
 export const Break = styled.br``
 
 export const Button = styled(Link)`
-  padding: 6px 56px;
+  padding: 10px 56px;
 
   display: block;
   background: #f6ab00;
