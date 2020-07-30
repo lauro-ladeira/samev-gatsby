@@ -3,8 +3,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Header from '../components/inicio/Header'
-import Sobre from '../components/inicio/Sobre'
+import dadosPalestrantes from "../data/dadosPalestrantes.json"
+
+import Header from "../components/inicio/Header"
+import Sobre from "../components/inicio/Sobre"
 import Carousel from "../components/inicio/Carousel"
 
 const IndexPage = () => (
@@ -12,7 +14,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Header />
     <Sobre />
-    <Carousel />
+    <Carousel dados={dadosPalestrantes.palestrantes} />
   </Layout>
 )
 

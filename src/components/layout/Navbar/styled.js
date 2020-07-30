@@ -52,7 +52,7 @@ export const MenuContainer = styled.ul`
     height: calc(100vh - 80px);
     justify-content: space-around;
     left: 100%;
-    margin: 0 25%;
+    /* margin: 0 25%; */
     position: fixed;
     top: 80px;
 
@@ -60,7 +60,7 @@ export const MenuContainer = styled.ul`
     /* transition: ease-out left .7s; */
     transition: left 1.1s cubic-bezier(0.19, 1, 0.22, 1);
     
-    width: 75%;
+    width: 100%;
     z-index: 99;
 
     ${props =>

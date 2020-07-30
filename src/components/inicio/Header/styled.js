@@ -14,22 +14,22 @@ export const HeaderWrapper = styled.div`
   background-position: center;
 
   width: 100%;
-  height: calc(100vh - 80px);
+  height: 100vh;
 `
 
 export const HeaderContainer = styled.div`
   margin: 0 auto;
   display: flex;
   width: 75%;
-  padding-top: 35vh;
+  padding-top: 40vh;
 
   ${media.lessThan("large")`
     width: 85%;
-    padding-top: 100px;
   `}
 
   ${media.lessThan("medium")`
    flex-direction: column;
+   padding-top: 30vh;
   `}
 `
 
