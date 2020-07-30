@@ -1,8 +1,26 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import * as S from "./styled"
+import Logo from "../Logo"
 
-function Navbar() {
+
+const Navbar = () => {
   const [active, setActive] = useState(false)
+  const [scroll, setScroll] = useState(0)
+
+
+  useEffect(() => {
+    window.onscroll = () => {
+      handleScroll()
+    }
+  }, [])
+
+  const handleScroll = () => {
+    if (document.documentElement.scrollTop > 0) {
+      setScroll(document.documentElement.scrollTop)
+    } else {
+      setScroll(0)
+    }
+  }
 
   const toggleClassName = () => {
     const currentState = active
@@ -10,9 +28,11 @@ function Navbar() {
   }
 
   return (
-    <S.NavbarWrapper>
+    <S.NavbarWrapper scroll={scroll}>
       <S.NavbarContainer>
-        <S.LogoContainer></S.LogoContainer>
+        <S.LogoContainer>
+          <Logo />
+        </S.LogoContainer>
         <S.MenuContainer active={active ? 'activeMenu' : null}>
           <S.MenuItem>
             <S.MenuLink to="/" activeClassName="active">Início</S.MenuLink>
