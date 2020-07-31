@@ -4,16 +4,35 @@ import media from "styled-media-query"
 
 export const NavbarWrapper = styled.div`
   align-items: center;
-  background-color: #060761;
+  background-color: transparent;
   display: flex;
   height: 80px;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  ${props =>
+    props.scroll > 0 &&
+    props.scroll < 200 &&
+    css`
+      /* background-color: rgba(74, 138, 104, ${props.scroll * (1 / 400)}); */
+      background-color: rgba(6, 7, 97, ${props.scroll * (1 / 400)});
+      box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    `}
+
+  ${props =>
+    props.scroll >= 200 &&
+    css`
+      background-color: rgba(0, 7, 97, 1);
+      box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    `}
 `
 export const NavbarContainer = styled.nav`
+  align-items: center;
   display: flex;
   justify-content: space-between;
   width: 75%;
-  position: fixed;
   z-index: 1;
 
   ${media.lessThan("large")`
@@ -21,7 +40,6 @@ export const NavbarContainer = styled.nav`
   `}
 `
 export const LogoContainer = styled.div`
-  background-color: #f6ab00;
   width: 10%;
 `
 
@@ -34,7 +52,7 @@ export const MenuContainer = styled.ul`
     height: calc(100vh - 80px);
     justify-content: space-around;
     left: 100%;
-    margin: 0 25%;
+    /* margin: 0 25%; */
     position: fixed;
     top: 80px;
 
@@ -42,7 +60,7 @@ export const MenuContainer = styled.ul`
     /* transition: ease-out left .7s; */
     transition: left 1.1s cubic-bezier(0.19, 1, 0.22, 1);
     
-    width: 75%;
+    width: 100%;
     z-index: 99;
 
     ${props =>

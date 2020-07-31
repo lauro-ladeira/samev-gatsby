@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import Header from '../components/inicio/Header'
 import Sobre from '../components/inicio/Sobre'
 import Apoio from '../components/inicio/Apoio'
+import dadosPalestrantes from "../data/dadosPalestrantes.json"
+import Carousel from "../components/inicio/Carousel"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +15,7 @@ const IndexPage = () => (
     <Header />
     <Sobre />
     <Apoio />
+    <Carousel dados={dadosPalestrantes.palestrantes} />
   </Layout>
 )
 
