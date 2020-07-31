@@ -2,7 +2,7 @@ import styled from "styled-components"
 // import media from "styled-media-query"
 // import { Link } from "gatsby"
 
-import ApoiadorImage from "../../../images/apoiador.jpg"
+// import ApoiadorImage from "../../../../apoiador.jpg"
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -28,13 +28,14 @@ export const Title = styled.h1`
 export const ApoiadoresContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  background-color: red;
-  height: 100%;
+  width: 100%;
+  height: 260px;
 `
 
 export const Apoiador = styled.div`
+  margin: 20px;
   width: 100%;
-  height: 100%;
-  background-image: url(${ApoiadorImage});
+  background-size: contain;
+  background-image: url("../../../../apoiador.jpg");
   background-position: center;
 `
