@@ -3,12 +3,12 @@ import * as S from "./styled"
 
 function Card({ nome, especialidade, palestras, url }) {
 
-    const image = `/static/${url}`
+  const path = `../../../../../${url}`
 
   return (
     <>
       <S.CardContainer>
-        <S.CardImage url={image} />
+        <S.CardImage path={path} />
         <S.CardNome>{nome}</S.CardNome>
         <S.CardEspecialidade>{especialidade}</S.CardEspecialidade>
         {palestras.map((palestras, i) => (

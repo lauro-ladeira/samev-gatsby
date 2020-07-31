@@ -1,5 +1,7 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import media from "styled-media-query"
+
+// import banana from '../../../../../img1.png'
 
 export const CardContainer = styled.a`
   text-decoration: none;
@@ -29,8 +31,15 @@ export const CardContainer = styled.a`
   `}
 `
 export const CardImage = styled.div`
-  background-image: ${({ url }) => `url(${url})`};
-  /* background-color: cyan; */
+  ${props =>
+    props.path &&
+    css`
+      background-image: url(${props.path});
+    `}
+
+  /* background-image: url('../../../../../img4.png'); */
+  background-position: center;
+
   background-size: 70px;
   border-radius: 50%;
   height: 70px;

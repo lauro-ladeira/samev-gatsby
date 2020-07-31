@@ -14,8 +14,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Header />
     <Sobre />
-    <Apoio />
     <Carousel dados={dadosPalestrantes.palestrantes} />
+    <Apoio />
   </Layout>
 )
 
