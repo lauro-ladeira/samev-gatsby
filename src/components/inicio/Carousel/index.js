@@ -9,13 +9,39 @@ import Card from "./Card"
 function Carousel({ dados }) {
   var settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScrol: 1,
     autoplay: true,
-    autoplaySpeed: 4,
+    autoplaySpeed: 5000,
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 1125,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 914,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 685,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   }
 
   return (
@@ -23,8 +49,8 @@ function Carousel({ dados }) {
       <S.CarouselContainer>
         <S.Title>Palestrantes</S.Title>
         <Slider {...settings}>
-          {dados.map(dados => (
-            <React.Fragment>
+          {dados.map((dados, i) => (
+            <React.Fragment key={i}>
               <Card
                 nome={dados.nome}
                 especialidade={dados.especialidade}
