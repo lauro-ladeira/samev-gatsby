@@ -1,7 +1,11 @@
 import styled from "styled-components"
+import img1 from "../../../../images/img1.png"
+import img2 from "../../../../images/img2.png"
+import img3 from "../../../../images/img3.png"
+import img4 from "../../../../images/img4.png"
+import img5 from "../../../../images/img5.png"
 
 export const CardContainer = styled.a`
-  border-radius: 4px;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
@@ -18,13 +22,22 @@ export const CardContainer = styled.a`
   padding: 16px;
   margin: 20px 5px 10px;
 
-
-  transition: height .6s, width .6s;
+  transition: transform .6s;
 
   &:hover,
   &:focus {
     transform: scale(1.05);
   }
+`
+export const CardImage = styled.div`
+  /* background-image: ${({ url }) => `url(${url})`}; */
+  background-image: url(${img1});
+  /* background-color: cyan; */
+  background-size: 70px;
+  border-radius: 50%;
+  height: 70px;
+  margin: 20px auto;
+  width: 70px;  
 `
 
 export const CardNome = styled.h1`

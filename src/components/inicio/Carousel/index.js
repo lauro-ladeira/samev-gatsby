@@ -13,6 +13,9 @@ function Carousel({ dados }) {
     speed: 500,
     slidesToShow: 5,
     slidesToScrol: 1,
+    autoplay: true,
+    autoplaySpeed: 4,
+    pauseOnHover: false,
   }
 
   return (
@@ -20,13 +23,16 @@ function Carousel({ dados }) {
       <S.CarouselContainer>
         <S.Title>Palestrantes</S.Title>
         <Slider {...settings}>
-          {dados.map(function (dados) {
-            return (
-              <React.Fragment>
-                <Card nome={dados.nome} especialidade={dados.especialidade} palestras={dados.palestras} />
-              </React.Fragment>
-            )
-          })}
+          {dados.map(dados => (
+            <React.Fragment>
+              <Card
+                nome={dados.nome}
+                especialidade={dados.especialidade}
+                palestras={dados.palestras}
+                url={dados.url}
+              />
+            </React.Fragment>
+          ))}
         </Slider>
       </S.CarouselContainer>
     </S.CarouselWrapper>

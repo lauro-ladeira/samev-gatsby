@@ -3,6 +3,7 @@
       {
         "nome": "Fulano de tal",
         "especialidade": "Médico Veterinário",
+        "url": "img1",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
@@ -15,6 +16,7 @@
       {
         "nome": "Dráuzio Varella",
         "especialidade": "Médico",
+        "url": "img2",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
@@ -27,6 +29,7 @@
       {
         "nome": "Fulano de tal",
         "especialidade": "Médico Veterinário",
+        "url": "img3",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
@@ -39,6 +42,7 @@
       {
         "nome": "Fulano de tal",
         "especialidade": "Médico Veterinário",
+        "url": "img4",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
@@ -51,6 +55,7 @@
       {
         "nome": "Fulano de tal",
         "especialidade": "Médico Veterinário",
+        "url": "img5",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
@@ -63,6 +68,7 @@
       {
         "nome": "Fulano de tal",
         "especialidade": "Médico Veterinário",
+        "url": "img1",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
@@ -75,6 +81,7 @@
       {
         "nome": "Fulano de tal",
         "especialidade": "Médico Veterinário",
+        "url": "img2",
         "palestras": [
           {
             "tema": "Aventura Selvagem - Universo dos Anfíbios"
