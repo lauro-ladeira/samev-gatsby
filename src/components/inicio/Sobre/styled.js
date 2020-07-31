@@ -4,13 +4,17 @@ import { Link } from "gatsby"
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: calc(100vh - 80px);
+  height: auto;
 `
 
 export const Container = styled.div`
   width: 75%;
   margin: 0 auto;
   padding: 50px 0;
+
+  ${media.lessThan("large")`
+    width: 85%;
+  `}
 `
 
 export const Title = styled.h1`
@@ -21,12 +25,16 @@ export const Title = styled.h1`
   color: #060761;
 
   margin-bottom: 10px;
+
+  ${media.lessThan("630px")`
+    text-align: center;
+  `}
 `
 
 export const Description = styled.h1`
   font-family: "Roboto";
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: justify;
 
   margin-bottom: 40px;
@@ -37,8 +45,8 @@ export const ButtonContainer = styled.div`
   display: flex;
   justify-content: flex-end;
 
-  ${media.lessThan("425px")`
-    justify-content: center;
+  ${media.lessThan("630px")`
+  justify-content: center;
   `}
 `
 
