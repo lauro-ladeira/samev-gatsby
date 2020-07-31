@@ -4,13 +4,12 @@ import { Link } from "gatsby"
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: calc(100vh - 80px);
 `
 
 export const Container = styled.div`
   width: 75%;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 0 20px;
 `
 
 export const Title = styled.h1`

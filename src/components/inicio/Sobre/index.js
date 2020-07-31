@@ -1,7 +1,7 @@
 import React from "react"
 import * as S from "./styled"
 
-const Header = () => {
+const Sobre = () => {
   return (
     <S.Wrapper>
       <S.Container>
@@ -22,4 +22,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Sobre
