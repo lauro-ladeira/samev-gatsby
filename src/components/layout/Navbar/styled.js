@@ -4,21 +4,25 @@ import media from "styled-media-query"
 
 export const NavbarWrapper = styled.div`
   align-items: center;
-  background-color: transparent;
+  background-color: #060761;
   display: flex;
-  height: 80px;
+  height: 100px;
   justify-content: center;
   position: fixed;
   width: 100%;
   z-index: 1;
 
+  ${media.greaterThan("804px")`
+
+  background-color: transparent;
+
   ${props =>
     props.scroll > 0 &&
     props.scroll < 200 &&
     css`
-      /* background-color: rgba(74, 138, 104, ${props.scroll * (1 / 400)}); */
       background-color: rgba(6, 7, 97, ${props.scroll * (1 / 400)});
       box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+      height: calc(100px - ${props.scroll * (40 / 200)}px);
     `}
 
   ${props =>
@@ -26,7 +30,9 @@ export const NavbarWrapper = styled.div`
     css`
       background-color: rgba(0, 7, 97, 1);
       box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+      height: 60px;
     `}
+  `}
 `
 export const NavbarContainer = styled.nav`
   align-items: center;
@@ -109,7 +115,7 @@ export const Circle = styled.div`
   ${media.lessThan("804px")`
   display: block;
   position: fixed;
-  top: 15px;
+  top: 25px;
   right: calc(7.5% + 19px);
   background-color: #fff;
   height: 50px;
