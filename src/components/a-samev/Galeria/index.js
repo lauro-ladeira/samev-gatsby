@@ -10,7 +10,7 @@ const photos = [
     height: 72,
   },
   {
-    src: "XX SAMEV 3.jpg",
+    src: "xx-samev-2.jpg",
     width: 72,
     height: 96,
   },
