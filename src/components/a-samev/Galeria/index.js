@@ -5,7 +5,7 @@ import * as S from "./styled"
 
 const photos = [
   {
-    src: "XX SAMEV 1.jpg",
+    src: "../../../../XX SAMEV 1.jpg",
     width: 96,
     height: 72,
   },
