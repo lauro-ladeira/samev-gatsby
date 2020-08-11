@@ -1,133 +1,116 @@
 import React, { useState } from "react"
 import * as S from "./styled"
-import Gallery from "react-grid-gallery"
 
-const captionStyle = {
-  backgroundColor: "rgba(0, 0, 0, 0.8)",
-  maxHeight: "240px",
-  overflow: "hidden",
-  position: "absolute",
-  bottom: "0",
-  width: "100%",
-  color: "white",
-  padding: "2px",
-  fontSize: "90%",
-}
+import Lightbox from "react-image-lightbox"
+import "react-image-lightbox/style.css"
 
-const customTagStyle = {
-  wordWrap: "break-word",
-  display: "inline-block",
-  backgroundColor: "white",
-  height: "auto",
-  fontSize: "75%",
-  fontWeight: "600",
-  lineHeight: "1",
-  padding: ".2em .6em .3em",
-  borderRadius: ".25em",
-  color: "black",
-  verticalAlign: "baseline",
-  margin: "2px",
-}
+const data = [
+  {
+    image: "../../../../xx-samev-10.jpg",
+    caption: "abubleble",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-5.jpg",
+    caption: "bbbbbb",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-4.jpg",
+    caption: "cacacacaca",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-3.jpg",
+    caption: "dadim é o carajo",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-1.jpg",
+    caption: "ummmmmm",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-12.jpg",
+    caption: "doze",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-11.jpg",
+    caption: "depois do 10",
+    title: "abubleble",
+  },
+  {
+    image: "../../../../xx-samev-13.jpg",
+    caption: "A CULPA E DO PT",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-14.jpg",
+    caption: "QUATORZE",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-15.jpg",
+    caption: "de piracicaba",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-16.jpg",
+    caption: "my sweet sixteen",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-17.jpg",
+    caption: "bolsonaro",
+    title: "abubleble"
+  },
+  {
+    image: "../../../../xx-samev-18.jpg",
+    caption: "ultima",
+    title: "abubleble"
+  },
+]
 
 const Galeria = () => {
-  const [images] = useState([
-    {
-      src: "../../../../XX SAMEV 1.jpg",
-      thumbnail: "../../../../XX SAMEV 1.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      tags: [{ value: "SAMEV 2018", title: "Nature | Flowers" }],
-      caption: "Geral reunido pra apertar a braba",
-    },
-    {
-      src: "../../../../XX SAMEV 3.jpg",
-      thumbnail: "../../../../XX SAMEV 3.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      tags: [
-        { value: "People", title: "People" },
-        { value: "Architecture", title: "Architecture | Outdoors" },
-        { value: "Industrial", title: "Industrial" },
-      ],
-      caption: "315H (gratisography.com)",
-    },
-    {
-      src: "../../../../XX SAMEV 4.jpg",
-      thumbnail: "../../../../XX SAMEV 4.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      caption: "201H (gratisography.com)",
-    },
-    {
-      src: "../../../../XX SAMEV 5.jpg",
-      thumbnail: "../../../../XX SAMEV 5.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      caption: "Big Ben (Tom Eversley - isorepublic.com)",
-    },
-    {
-      src: "../../../../XX SAMEV 10.jpg",
-      thumbnail: "../../../../XX SAMEV 10.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      tags: [
-        { value: "People", title: "People" },
-        { value: "Industrial", title: "Industrial" },
-      ],
-      caption: "Red Zone - Paris (Tom Eversley - isorepublic.com)",
-    },
-    {
-      src: "../../../../XX SAMEV 11.jpg",
-      thumbnail: "../../../../XX SAMEV 11.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      caption: "Wood Glass (Tom Eversley - isorepublic.com)",
-    },
-    {
-      src: "../../../../XX SAMEV 12.jpg",
-      thumbnail: "../../../../XX SAMEV 12.jpg",
-      thumbnailWidth: 960,
-      thumbnailHeight: 720,
-      tags: [{ value: "Nature", title: "Nature | Flowers" }],
-      caption: "Flower Interior Macro (Tom Eversley - isorepublic.com)",
-    },
-  ])
+  const [photoIndex, setPhotoIndex] = useState(0)
+  const [isOpen, setIsOpen] = useState(false)
 
-  function setCustomTags(i) {
-    return i.tags.map(t => {
-      return (
-        <div key={t.value} style={customTagStyle}>
-          {t.title}
-        </div>
-      )
-    })
+  function handlePhoto(num) {
+    setPhotoIndex(num)
+    setIsOpen(true)
   }
-
-  const imgs = images.map(i => {
-    i.customOverlay = (
-      <div style={captionStyle}>
-        <div>{i.caption}</div>
-        {i.hasOwnProperty("tags") && setCustomTags(i)}
-      </div>
-    )
-    return i
-  })
 
   return (
     <S.Wrapper>
+      <S.GlobalStyles />
       <S.Container>
-        <S.Title>Sobre a SAMEV</S.Title>
-        <div
-          style={{
-            display: "block",
-            minHeight: "1px",
-            width: "100%",
-            border: "1px solid #ddd",
-            overflow: "auto",
-          }}
-        >
-          <Gallery images={imgs} enableImageSelection={false} rowHeight={300}/>
-        </div>
+        {isOpen && (
+          <Lightbox
+            imageTitle="abubleble"
+            imageCaption={data[photoIndex].caption}
+            mainSrc={data[photoIndex].image}
+            nextSrc={data[(photoIndex + 1) % data.length].image}
+            prevSrc={data[(photoIndex + data.length - 1) % data.length].image}
+            onCloseRequest={() => setIsOpen(false)}
+            onMovePrevRequest={() =>
+              setPhotoIndex((photoIndex + data.length - 1) % data.length)
+            }
+            onMoveNextRequest={() =>
+              setPhotoIndex((photoIndex + 1) % data.length)
+            }
+          />
+        )}
+        <S.Title>Eventos anteriores</S.Title>
+        <S.CardsContainer>
+          {data.map((el,index) => {
+            return (
+              <S.Thumb onClick={() => handlePhoto(index)}>
+                <S.CardImage path={el.image} />
+              </S.Thumb>
+            )
+          })}
+        </S.CardsContainer>
       </S.Container>
     </S.Wrapper>
   )
