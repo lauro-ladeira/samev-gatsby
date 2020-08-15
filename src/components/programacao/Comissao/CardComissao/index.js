@@ -23,12 +23,15 @@ function CardComissao({ nome, descricao, url }) {
           </S.CloseButton>
         </S.Header>
         <S.Info>
-          <S.CardImage path={path} />
+          <S.CardImage path={path}  active={active ? "activeAvatar" : null}/>
           <S.CardNome active={active ? "activeName" : null}>{nome}</S.CardNome>
         </S.Info>
         <S.TextBox>{descricao}</S.TextBox>
       </S.Box>
-      <S.CardContainer>
+      <S.CardContainer
+        onClick={toggleClassName}
+        active={active ? "activeClose" : null}
+      >
         <S.CardImage path={path} />
         <S.CardNome>{nome}</S.CardNome>
         <S.CardButton onClick={toggleClassName}>+</S.CardButton>

@@ -12,7 +12,7 @@ export const ComissaoContainer = styled.div`
 
   ${media.lessThan("large")`
     width: 85%;
-  `}
+  `} 
 `
 
 export const Title = styled.h1`

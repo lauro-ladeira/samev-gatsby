@@ -13,7 +13,23 @@ export const CardContainer = styled.div`
   flex-direction: column;
   padding: 16px;
   margin: 10px 10px;
+
+  transition: transform 0.6s;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+
+  ${media.lessThan("544px")`
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 2.5px 2.5px;
+  `}
 `
+
 export const CardImage = styled.div`
   ${props =>
     props.path &&
@@ -28,6 +44,20 @@ export const CardImage = styled.div`
   height: 130px;
   margin: 10px auto;
   width: 130px;
+
+  ${media.lessThan("544px")`
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+
+    ${props =>
+      props.active === "activeAvatar" &&
+      css`
+        background-size: 100px;
+        height: 100px;
+        width: 100px;
+      `}
+  `}
 `
 
 export const CardNome = styled.h1`
@@ -51,7 +81,16 @@ export const CardNome = styled.h1`
       font-size: 20px;
       width: 80%;
     `}
+
+  ${media.lessThan("544px")`
+    font-size: 14px;
+    text-align: center;
+    left: 10px;
+    bottom: 10px;
+    width: 80px;
+  `}
 `
+
 export const CardButton = styled.a`
   display: flex;
   align-items: center;
@@ -68,7 +107,12 @@ export const CardButton = styled.a`
 
   height: 50px;
   width: 50px;
+
+  ${media.lessThan("544px")`
+    display: none;
+  `}
 `
+
 export const Box = styled.div`
   display: none;
   ${props =>
@@ -98,6 +142,7 @@ export const Box = styled.div`
     max-height: 80vh;
   `}
 `
+
 export const Header = styled.div`
   background-color: transparent;
   border-radius: 20px;
@@ -106,6 +151,7 @@ export const Header = styled.div`
   position: absolute;
   top: 0;
 `
+
 export const Info = styled.div`
   display: flex;
   flex-direction: column;

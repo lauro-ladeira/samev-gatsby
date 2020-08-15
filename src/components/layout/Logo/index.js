@@ -9,7 +9,7 @@ const Logo = () => {
       query {
         logoImage: file(relativePath: { eq: "logo-samev.png" }) {
           childImageSharp {
-            fixed (width: 172, height: 62) {
+            fixed (width: 172, height: 52) {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }
