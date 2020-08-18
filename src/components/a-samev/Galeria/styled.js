@@ -36,7 +36,20 @@ export const Title = styled.h1`
   font-size: 36px;
   line-height: 42px;
   color: #060761;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
+  ${media.lessThan("630px")`
+    text-align: center;
+  `}
+`
+
+export const Subtitle = styled.h2`
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #f6ab00;
+  margin: 30px 0;
 
   ${media.lessThan("630px")`
     text-align: center;
@@ -53,14 +66,15 @@ export const CardImage = styled.div`
   background-position: center;
   background-repeat: no-repeat;
 
-  background-size: 135%;
-  height: 180px;
+  background-size: 155%;
+  height: 150px;
   margin: 5px;
-  width: 180px;
+  width: 150px;
 
   ${media.lessThan("480px")`
     height: 100px;
     width: 100px;
+    margin: 2px;
   `}
 `
 
@@ -71,5 +85,16 @@ export const CardsContainer = styled.div`
 `
 
 export const Thumb = styled.div`
+  cursor: pointer;
+`
+export const ButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+`
+
+export const Button = styled.button`
   cursor: pointer;
 `
