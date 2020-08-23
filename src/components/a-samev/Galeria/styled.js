@@ -24,6 +24,7 @@ export const Container = styled.div`
   width: 75%;
   margin: 0 auto;
   padding: 50px 0;
+  font-family: "Roboto Condensed";
 
   ${media.lessThan("large")`
     width: 85%;
@@ -37,10 +38,7 @@ export const Title = styled.h1`
   line-height: 42px;
   color: #060761;
   margin-bottom: 10px;
-
-  ${media.lessThan("630px")`
-    text-align: center;
-  `}
+  text-align: center;
 `
 
 export const Subtitle = styled.h2`
@@ -50,10 +48,7 @@ export const Subtitle = styled.h2`
   line-height: 28px;
   color: #f6ab00;
   margin: 30px 0;
-
-  ${media.lessThan("630px")`
-    text-align: center;
-  `}
+  text-align: center;
 `
 
 export const CardImage = styled.div`
@@ -97,4 +92,16 @@ export const ButtonContainer = styled.div`
 
 export const Button = styled.button`
   cursor: pointer;
+  background-color: #bbf7b2;
+  border: none;
+  border-radius: 10px;
+  color: #060761;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: #6bc1dd;
+  }
 `

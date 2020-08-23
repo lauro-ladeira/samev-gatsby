@@ -32,13 +32,14 @@ export const Title = styled.h1`
 `
 
 export const Description = styled.h1`
-  font-family: "Roboto";
+  color: #333;
+  font-family: "Roboto Condensed";
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
 
   margin-bottom: 40px;
-  color: #000;
+  margin-top: 20px;
 `
 
 export const ButtonContainer = styled.div`

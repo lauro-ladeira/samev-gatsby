@@ -7,37 +7,45 @@ const Sobre = () => {
       <S.Container>
         <S.Title>Sobre a SAMEV</S.Title>
         <S.Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante
-          dolor, molestie ut nisi nec, luctus eleifend dolor. Donec in lobortis
-          leo. Pellentesque venenatis lacus non enim mollis vehicula. Vestibulum
-          nec rhoncus tortor. Donec aliquet egestas pulvinar. Praesent eget
-          lorem eget diam semper porta. Aliquam ante nisl, faucibus non tellus
-          in, tempor dignissim ex. <br />
-          <br /> Vestibulum magna dolor, facilisis eget sodales quis, finibus et
-          ante. Duis elit ipsum, gravida eget felis eget, pulvinar mattis nunc.
-          Nullam nec ultrices ligula, eu cursus felis. Donec eget dui nec orci
-          commodo molestie sit amet at est. Integer quam mi, pharetra sit amet
-          bibendum quis, auctor sed diam. Aenean in iaculis felis. Suspendisse
-          potenti. Proin gravida rutrum lacus, ac blandit enim varius id. Fusce
-          quis odio pulvinar, dapibus lorem eu, vulputate quam. Fusce eu ornare
-          magna. Curabitur tincidunt, magna ac vulputate vehicula, dui tortor
-          congue ex, id molestie odio est nec elit. Vivamus consequat ut sem vel
-          ullamcorper. Vivamus efficitur, elit non consequat semper, velit enim
-          vulputate lectus, ut faucibus enim nunc eu arcu. Donec elit ex,
-          imperdiet sed cursus dignissim, scelerisque sit amet nisl. <br />
-          <br /> Aliquam pellentesque nunc purus, eget eleifend ligula malesuada
-          non. Suspendisse quis lacinia orci. Donec a est et est ultricies
-          faucibus. In consectetur fermentum lorem, vel lacinia nibh lacinia
-          sed. Proin viverra, risus pretium lobortis feugiat, nibh purus rutrum
-          purus, sit amet luctus ante mauris in lacus. Ut tempus leo ut eros
-          posuere vulputate. Etiam rhoncus est et dignissim condimentum.
-          Curabitur suscipit lectus magna, sollicitudin porttitor leo porttitor
-          eget. Sed ante sapien, scelerisque id massa id, laoreet consequat est.
-          Donec non tincidunt mauris. Vestibulum ante ipsum primis in faucibus
-          orci luctus et ultrices posuere cubilia curae; Sed at lacinia justo.
-          Maecenas vel elit vehicula, maximus nisi fringilla, tincidunt elit. Ut
-          in maximus ipsum, non laoreet tellus. Fusce bibendum tellus vitae
-          faucibus suscipit.{" "}
+          A Semana Acadêmica de Medicina Veterinária (SAMEV) é organizada por
+          estudantes e professores da graduação da Universidade Federal de
+          Viçosa (UFV). A UFV é uma instituição de referência nacional em
+          inúmeras áreas, inclusive no curso de Medicina Veterinária, que
+          recebeu nota máxima no conceito do Ministério da Educação (MEC).{" "}
+          <br />
+          O propósito inicial do evento é ofertar palestras com temas
+          diversificados, abrangendo ao máximo as diferentes áreas de atuação
+          dos médicos veterinários. A Comissão Organizadora busca por
+          palestrantes renomados em suas áreas e que se disponham a dialogar com
+          os demais participantes, tirar possíveis dúvidas e realizar uma
+          apresentação completa e clara sobre o tema escolhido. Além disso,
+          reunir estudantes e profissionais em um mesmo ambiente, bem como
+          estimular discussões pertinentes sobre assuntos dentro das diversas
+          áreas de atuações dos médicos veterinários, facilita a formação de
+          vínculos pessoais e profissionais, além de fomentar a divulgação de
+          experimentos e resultados de pesquisas, permitindo a troca de
+          experiência e conhecimento entre os participantes. <br /> Todos os
+          anos elegemos temas centrais para os eventos, o escolhido deste ano
+          foi ‘Especialidades’. O Conselho Federal de Medicina Veterinária
+          (CFMV) considera 86 (oitenta e seis) especialidades de médicos
+          veterinários. O tema central abre espaço para discussões atuais e
+          inovadoras, podendo atrair estudantes a uma área de atuação diferente
+          que, em alguns casos, não é devidamente abordada na grade curricular
+          do curso.
+          <br />
+          Em sua vigésima segunda edição, a SAMEV apresenta um novo e inesperado
+          desafio: o contexto de isolamento social. Após estudar as opções e
+          consultar o público interessado, a Comissão Organizadora da XXII SAMEV
+          decidiu por realizar o evento de forma remota, respeitando todas as
+          indicações da Organização Mundial de Saúde (OMS). Para isso, a
+          plataforma escolhida para transmissão do evento foi o YouTube, e as
+          palestras poderão ser ofertadas tanto ao vivo como também palestras já
+          gravadas. <br /> O nosso público-alvo são os estudantes de graduação
+          de Medicina Veterinária, para que consigam sair da rotina de estudos
+          da universidade e ampliar sua visão para o futuro. A proposta da
+          Comissão é oferecer um evento acessível, comprometendo-se a auxiliar
+          aqueles em situações de vulnerabilidade durante o contexto
+          socioeconômico global.
         </S.Description>
       </S.Container>
     </S.Wrapper>
