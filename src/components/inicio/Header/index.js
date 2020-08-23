@@ -7,7 +7,16 @@ const Header = () => {
       <S.HeaderContainer>
         <S.TitleContainer>
           <S.Title>XXII SAMEV</S.Title>
-          <S.Color style={{ color: '#BBF6B2', fontStyle: "italic", fontWeight: "normal" }}> Especialidades</S.Color>
+          <S.Color
+            style={{
+              color: "#BBF6B2",
+              fontStyle: "italic",
+              fontWeight: "normal",
+            }}
+          >
+            {" "}
+            Especialidades
+          </S.Color>
           <S.Description>
             Semana Acadêmica de Medicina Veterinária <S.Break />
           </S.Description>

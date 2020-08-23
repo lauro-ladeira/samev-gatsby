@@ -2,20 +2,28 @@ import styled from "styled-components"
 import media from "styled-media-query"
 import { Link } from "gatsby"
 
-import HeaderImage from "../../../images/pessoas-samev-2019.jpg"
+import HeaderImage from "./HeaderImage"
+// import HeaderImage from "../../../images/pessoas-samev-2019.jpg"
 
-export const HeaderWrapper = styled.div`
-  background-image: linear-gradient(
-      180deg,
-      #060761 12.31%,
-      rgba(6, 7, 97, 0) 144.2%
-    ),
-    url(${HeaderImage});
+export const HeaderWrapper = styled(HeaderImage)`
   background-position: center;
 
   width: 100%;
   height: 100vh;
 `
+
+// export const HeaderWrapper = styled.div`
+//   background-image: linear-gradient(
+//       180deg,
+//       #060761 12.31%,
+//       rgba(6, 7, 97, 0) 144.2%
+//     ),
+//     url(${HeaderImage});
+//   background-position: center;
+
+//   width: 100%;
+//   height: 100vh;
+// `
 
 export const HeaderContainer = styled.div`
   margin: 0 auto;
@@ -91,7 +99,7 @@ export const Title = styled.h1`
 export const Description = styled(Title)`
   font-size: 36px;
   line-height: 46px;
-  
+
   ${media.lessThan("910px")`
     font-size: 32px;
     line-height: 42px;
