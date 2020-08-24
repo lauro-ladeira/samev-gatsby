@@ -47,6 +47,8 @@ export const NavbarContainer = styled.nav`
 `
 export const LogoContainer = styled.div`
   width: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 `
 
 export const MenuContainer = styled.ul`
