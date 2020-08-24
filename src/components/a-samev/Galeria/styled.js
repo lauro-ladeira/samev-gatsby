@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
 
   /* Estilo da legenda, sempre colocar !important pra forçar a alteração */
   .ril__captionContent {
+    font-family: Roboto Condensed !important;
     padding: 10px 20px;
     color: #fff !important;
   }
@@ -13,6 +14,11 @@ export const GlobalStyles = createGlobalStyle`
   .ril__caption {
     /* justify-content: center; */
   }
+
+  /* Estilo do titulo */
+  /* .ril__toolbarItem {
+    font-family: Roboto Condensed !important;
+  } */
 `
 
 export const Wrapper = styled.div`

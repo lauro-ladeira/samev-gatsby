@@ -1,8 +1,22 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import * as S from "./styled"
 
 function CardComissao({ nome, descricao, url }) {
   const [active, setActive] = useState(false)
+
+  const escFunction = event => {
+    if (event.keyCode === 27) {
+      setActive(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("keydown", escFunction, false)
+
+    return () => {
+      window.removeEventListener("keydown", escFunction, false)
+    }
+  }, [])
 
   const toggleClassName = () => {
     const currentState = active
@@ -23,7 +37,7 @@ function CardComissao({ nome, descricao, url }) {
           </S.CloseButton>
         </S.Header>
         <S.Info>
-          <S.CardImage path={path}  active={active ? "activeAvatar" : null}/>
+          <S.CardImage path={path} active={active ? "activeAvatar" : null} />
           <S.CardNome active={active ? "activeName" : null}>{nome}</S.CardNome>
         </S.Info>
         <S.TextBox>{descricao}</S.TextBox>

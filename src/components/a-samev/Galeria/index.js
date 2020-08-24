@@ -46,7 +46,6 @@ const Galeria = () => {
       <S.Container>
         {photo.samevXX.isOpen && (
           <Lightbox
-            imageTitle="abubleble"
             imageCaption={photoList.samevXX[photo.samevXX.index].caption}
             mainSrc={photoList.samevXX[photo.samevXX.index].image}
             nextSrc={
@@ -87,7 +86,6 @@ const Galeria = () => {
         )}
         {photo.samevXXI.isOpen && (
           <Lightbox
-            imageTitle="abubleble"
             imageCaption={photoList.samevXXI[photo.samevXXI.index].caption}
             mainSrc={photoList.samevXXI[photo.samevXXI.index].image}
             nextSrc={

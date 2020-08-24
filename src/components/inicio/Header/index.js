@@ -28,7 +28,7 @@ const Header = () => {
           </S.ColorSmaller>
         </S.TitleContainer>
         <S.ButtonContainer>
-          <S.Button to="/">INSCREVA-SE!</S.Button>
+          <S.Button to="https://drive.google.com/file/d/1bUJFdAwdWdNEuizqp_k650i0QYnPDzHO/view?usp=sharing">INSCREVA-SE!</S.Button>
         </S.ButtonContainer>
       </S.HeaderContainer>
     </S.HeaderWrapper>

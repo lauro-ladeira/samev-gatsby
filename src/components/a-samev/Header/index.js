@@ -1,12 +1,12 @@
 import React from "react"
 import * as S from "./styled"
 
-const Header = () => {
+const Header = ({ title }) => {
   return (
     <S.HeaderWrapper>
       <S.HeaderContainer>
         <S.TitleContainer>
-          <S.Title>A SAMEV</S.Title>
+          <S.Title>{title}</S.Title>
         </S.TitleContainer>
       </S.HeaderContainer>
     </S.HeaderWrapper>
