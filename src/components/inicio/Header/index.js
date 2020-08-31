@@ -29,7 +29,7 @@ const Header = () => {
         </S.TitleContainer>
         <S.ButtonContainer>
           <S.Button
-            to="https://drive.google.com/file/d/1bUJFdAwdWdNEuizqp_k650i0QYnPDzHO/view?usp=sharing"
+            to="/"
             target="_blank"
           >
             INSCREVA-SE!
