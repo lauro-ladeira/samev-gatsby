@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Img from 'gatsby-image'
 // import media from "styled-media-query"
 // import { Link } from "gatsby"
 
@@ -27,15 +28,12 @@ export const Title = styled.h1`
 
 export const ApoiadoresContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
-  height: 260px;
 `
 
-export const Apoiador = styled.div`
-  margin: 20px;
-  width: 100%;
-  background-size: contain;
-  background-image: url("../../../../apoiador.jpg");
-  background-position: center;
-`
+export const ImgWrapper = styled.div`
+  /* background: red; */
+  width: 400px;
+  margin: 0 3px 20px;
+`;

@@ -5,6 +5,13 @@ module.exports = {
     author: `@Helix Design & Web`,
   },
   plugins: [
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
