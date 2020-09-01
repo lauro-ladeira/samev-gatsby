@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components"
 import media from "styled-media-query"
+import Img from "gatsby-image"
 
 // import banana from '../../../../../img1.png'
 
@@ -31,17 +32,18 @@ export const CardContainer = styled.a`
   `}
 `
 export const CardImage = styled.div`
-  ${props =>
+  /* ${props =>
     props.path &&
     css`
       background-image: url(${props.path});
     `}
 
   /* background-image: url('../../../../../img4.png'); */
-  background-position: center;
+  /* background-position: center; */
 
-  background-size: 70px;
-  border-radius: 50%;
+  /* background-size: 70px; */
+
+  /* border-radius: 50%; */
   height: 70px;
   margin: 20px auto;
   width: 70px;
@@ -49,7 +51,7 @@ export const CardImage = styled.div`
   ${media.lessThan("480px")`
     height: 100px;
     width: 100px;
-    background-size: 100px;
+    /* background-size: 100px; */
   `}
 `
 
@@ -73,4 +75,8 @@ export const CardPalestras = styled.p`
   text-align: center;
   color: #222;
   margin-top: 10px;
+`
+
+export const SetImg = styled(Img)`
+  border-radius: 50%;
 `

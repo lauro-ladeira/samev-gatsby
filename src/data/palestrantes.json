@@ -1,0 +1,93 @@
+[
+    {
+        "nome": "Fulano de tal",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/img1.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    },
+    {
+        "nome": "Dráuzio Varella",
+        "especialidade": "Médico",
+        "src": "../images/palestrantes/img2.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    },
+    {
+        "nome": "Fulano de tal",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/img3.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    },
+    {
+        "nome": "Fulano de tal",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/img4.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    },
+    {
+        "nome": "Fulano de tal",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/img5.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    },
+    {
+        "nome": "Fulano de tal",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/img1.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    },
+    {
+        "nome": "Fulano de tal",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/img2.png",
+        "palestras": [
+            {
+                "tema": "Aventura Selvagem - Universo dos Anfíbios"
+            },
+            {
+                "tema": "Desvandando os equinos"
+            }
+        ]
+    }
+]
