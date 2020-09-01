@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 import * as S from "./styled"
-import * as Sc from "./card/styled"
 
 const Palestrantes = () => {
   const [active, setActive] = useState(false)
@@ -95,55 +94,55 @@ const Palestrantes = () => {
     <S.CarouselWrapper>
       <S.CarouselContainer>
         <S.Title>Palestrantes</S.Title>
-        <Sc.Box active={active ? "activeBox" : null}>
-          <Sc.Header>
-            <Sc.CloseButton
+        <S.Box active={active ? "activeBox" : null}>
+          <S.Header>
+            <S.CloseButton
               onClick={toggleClassName}
               active={active ? "activeClose" : null}
             >
               +
-            </Sc.CloseButton>
-          </Sc.Header>
-          <Sc.Info>
-            <Sc.CardImage active={active ? "activeAvatar" : null}>
+            </S.CloseButton>
+          </S.Header>
+          <S.Info>
+            <S.CardImage active={active ? "activeAvatar" : null}>
               {data.allPalestrantesJson.nodes.map(palestrante => {
                 if (palestrante.nome === palestranteActive.nome) {
                   return (
-                    <Sc.SetImg key={Math.random()}
+                    <S.SetImg key={Math.random()}
                       fluid={palestranteActive.src.childImageSharp.fluid}
                     />
                   )
                 }
                 return null
               })}
-            </Sc.CardImage>
-            <Sc.CardNome active={active ? "activeName" : null}>
+            </S.CardImage>
+            <S.CardNome active={active ? "activeName" : null}>
               {palestranteActive.nome}
-            </Sc.CardNome>
-          </Sc.Info>
-          <Sc.TextBox>vai rolar</Sc.TextBox>
-        </Sc.Box>
+            </S.CardNome>
+          </S.Info>
+          <S.TextBox>vai rolar</S.TextBox>
+        </S.Box>
         <Slider {...settings}>
           {data.allPalestrantesJson.nodes.map(palestrante => (
             <React.Fragment key={Math.random()}>
-              <Sc.CardContainer
+              <S.CardContainer
                 onClick={() => toggleClassName(palestrante)}
                 active={active ? "activeClose" : null}
               >
-                <Sc.CardImage>
-                  <Sc.SetImg fluid={palestrante.src.childImageSharp.fluid} />
-                </Sc.CardImage>
-                <Sc.CardNome>{palestrante.nome}</Sc.CardNome>
-                <Sc.CardEspecialidade>
+                <S.CardImage>
+                  <S.SetImg fluid={palestrante.src.childImageSharp.fluid} />
+                </S.CardImage>
+                <S.CardNome>{palestrante.nome}</S.CardNome>
+                <S.CardEspecialidade>
                   {palestrante.especialidade}
-                </Sc.CardEspecialidade>
+                </S.CardEspecialidade>
                 {palestrante.palestras.map(palestras => (
-                  <Sc.CardPalestras key={Math.random()}>
+                  <S.CardPalestras key={Math.random()}>
                     {palestras.tema}
-                  </Sc.CardPalestras>
+                  </S.CardPalestras>
                 ))}
                 ;
-              </Sc.CardContainer>
+              </S.CardContainer>
             </React.Fragment>
           ))}
         </Slider>
