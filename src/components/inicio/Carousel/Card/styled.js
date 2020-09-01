@@ -59,12 +59,14 @@ export const CardNome = styled.h1`
   font-weight: bold;
   color: #060761;
   margin-bottom: 10px;
+  text-align: center;
 `
 export const CardEspecialidade = styled.h2`
   font-family: "Roboto Condensed", "sans-serif";
   font-size: 16px;
   color: #222;
   margin-bottom: 10px;
+  text-align: center;
 `
 export const CardPalestras = styled.p`
   font-family: "Roboto Condensed", "sans-serif";
@@ -73,4 +75,86 @@ export const CardPalestras = styled.p`
   text-align: center;
   color: #222;
   margin-top: 10px;
+`
+export const Box = styled.div`
+  display: none;
+  ${props =>
+    props.active === "activeBox" &&
+    css`
+      position: fixed;
+      top: 50px;
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 0 0 130vw rgba(9, 7, 97, 0.9);
+      padding: 20px;
+      max-height: 90vh;
+      width: 60%;
+
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      z-index: 99;
+    `}
+
+  ${media.lessThan("1200px")`
+    width: 80%;
+  `}
+
+  ${media.lessThan("890px")`
+    max-height: 80vh;
+  `}
+`
+
+export const Header = styled.div`
+  background-color: transparent;
+  border-radius: 20px;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+`
+
+export const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+`
+
+export const CloseButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  background-color: transparent;
+  color: #060761;
+  cursor: pointer;
+  font-size: 38px;
+  font-weight: bold;
+
+  height: 50px;
+  width: 50px;
+
+  transform: rotate(-45deg);
+`
+
+export const TextBox = styled.p`
+  color: #333;
+  font-family: "Roboto Condensed", "Sans-serif";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 40px 20px 20px;
+  text-align: justify;
+
+  z-index: 99;
+
+  ${media.lessThan("890px")`
+    overflow: scroll;
+  `}
 `

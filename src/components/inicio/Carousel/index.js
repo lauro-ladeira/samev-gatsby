@@ -56,6 +56,7 @@ function Carousel({ dados }) {
                 especialidade={dados.especialidade}
                 palestras={dados.palestras}
                 url={dados.url}
+                descricao={dados.descricao}
               />
             </React.Fragment>
           ))}
