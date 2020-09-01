@@ -80,6 +80,8 @@ export const CardPalestras = styled.p`
 `
 
 export const SetImg = styled(Img)`
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 `
 

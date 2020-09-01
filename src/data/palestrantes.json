@@ -1,92 +1,121 @@
 [
     {
-        "nome": "Fulano de tal",
-        "especialidade": "Médico Veterinário",
-        "src": "../images/palestrantes/img1.png",
+        "nome": "Aline Félix",
+        "especialidade": "Médica Veterinária",
+        "src": "../images/palestrantes/aline-felix.jpeg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
-            {
-                "tema": "Desvandando os equinos"
+                "tema": "Avicultura moderna"
             }
         ]
     },
     {
-        "nome": "Dráuzio Varella",
-        "especialidade": "Médico",
-        "src": "../images/palestrantes/img2.png",
+        "nome": "Amanda Neri",
+        "especialidade": "Médica Veterinária e Consultora Educampo Nestlé desde 2018",
+        "src": "../images/palestrantes/amanda-neri.jpg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
-            {
-                "tema": "Desvandando os equinos"
+                "tema": "Mercado de trabalho na indústria leiteira para recém formados"
             }
         ]
     },
     {
-        "nome": "Fulano de tal",
-        "especialidade": "Médico Veterinário",
-        "src": "../images/palestrantes/img3.png",
+        "nome": "Fábio Fidelis",
+        "especialidade": "Médico Veterinário e Empresário do Hospital Veterinário Cambuá",
+        "src": "../images/palestrantes/fabio-fidelis.jpg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
-            {
-                "tema": "Desvandando os equinos"
+                "tema": "O que não te contaram sobre o gerenciamento de clínicas veterinárias"
             }
         ]
     },
     {
-        "nome": "Fulano de tal",
+        "nome": "Fernanda Timbó",
         "especialidade": "Médico Veterinário",
-        "src": "../images/palestrantes/img4.png",
+        "src": "../images/palestrantes/fernanda-timbo.JPG",
+        "palestras": [
+          {
+            "tema": "Neonatologia Equina: a importância dos primeiros cuidados"
+          }  
+        ]
+      },
+    {
+        "nome": "Ines Andretta",
+        "especialidade": "Zootecnista",
+        "src": "../images/palestrantes/ines-andretta.jpeg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
-            {
-                "tema": "Desvandando os equinos"
+                "tema": "Mitos e verdades sobre a suinocultura moderna"
             }
         ]
     },
     {
-        "nome": "Fulano de tal",
-        "especialidade": "Médico Veterinário",
-        "src": "../images/palestrantes/img5.png",
+        "nome": "Marco Mello",
+        "especialidade": "Médico Veterinário e Professor Associado na UFRRJ",
+        "src": "../images/palestrantes/marco-mello.jpeg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
-            {
-                "tema": "Desvandando os equinos"
+                "tema": "Clonagem por Transferência Nuclear em Bovinos"
             }
         ]
     },
     {
-        "nome": "Fulano de tal",
-        "especialidade": "Médico Veterinário",
-        "src": "../images/palestrantes/img1.png",
+        "nome": "Maria Gazzinelli",
+        "especialidade": "Médica Veterinária",
+        "src": "../images/palestrantes/maria-gazzinelli.jpg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
-            {
-                "tema": "Desvandando os equinos"
+                "tema": "Inovações da Reprodução equina: o que há de novo no mercado?"
             }
         ]
     },
     {
-        "nome": "Fulano de tal",
-        "especialidade": "Médico Veterinário",
-        "src": "../images/palestrantes/img2.png",
+        "nome": "Michelle Gouvêa",
+        "especialidade": "Médica Veterinária",
+        "src": "../images/palestrantes/michelle-gouvea.jpg",
         "palestras": [
             {
-                "tema": "Aventura Selvagem - Universo dos Anfíbios"
-            },
+                "tema": "Oftalmologia básica: o que o clínico deve saber?"
+            }
+        ]
+    },
+    {
+        "nome": "Rafael Nudelman",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/rafael-nudelman.jpg",
+        "palestras": [
             {
-                "tema": "Desvandando os equinos"
+                "tema": "Casos clínicos na anestesiologia de animais silvestres"
+            }
+        ]
+    },
+    {
+        "nome": "Rodrigo Mencalha",
+        "especialidade": "Médico Veterinário",
+        "src": "../images/palestrantes/rodrigo-mencalha.jpg",
+        "palestras": [
+            {
+                "tema": "Bloqueios Analgésicos para Alívio da dor crônica"
+            }
+        ]
+    },
+    {
+        "nome": "Shara Regina",
+        "especialidade": "Médica Veterinária",
+        "src": "../images/palestrantes/shara-regina.jpg",
+        "palestras": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ]
+    },
+    {
+        "nome": "Welden Panziera",
+        "especialidade": "Professor adjunto da Faculdade de Veterinária da Universidade Federal do Rio Grande do Sul ",
+        "src": "../images/palestrantes/welden-panziera.jpg",
+        "palestras": [
+            {
+                "tema": "Toxicologia Veterinária"
             }
         ]
     }

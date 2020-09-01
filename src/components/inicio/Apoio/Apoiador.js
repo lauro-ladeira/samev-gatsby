@@ -24,7 +24,7 @@ export const Apoiadores = () => {
   return (
     <ApoiadoresContainer>
       {data.allApoiadoresJson.nodes.map(apoiador => (
-        <ImgWrapper>
+        <ImgWrapper key={Math.random()}>
             <Img fluid={apoiador.src.childImageSharp.fluid} />
         </ImgWrapper>
       ))}
