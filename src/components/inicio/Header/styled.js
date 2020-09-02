@@ -7,7 +7,7 @@ import HeaderImage from "./HeaderImage"
 
 export const HeaderWrapper = styled(HeaderImage)`
   background-position: center;
-
+  background-color: red;
   width: 100%;
   height: 100vh;
 `

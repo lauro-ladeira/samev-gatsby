@@ -29,7 +29,6 @@ const HeaderImage = ({ className, children }) => {
       role="img"
       aria-label="gbitest"
       fadeIn={`soft`}
-      background="red"
     >
       {children}
     </BackgroundImage>
