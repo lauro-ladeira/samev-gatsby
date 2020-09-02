@@ -29,7 +29,7 @@ const Header = () => {
         </S.TitleContainer>
         <S.ButtonContainer>
           <S.Button
-            to="/"
+            to="/inscricao"
             target="_blank"
           >
             INSCREVA-SE!
