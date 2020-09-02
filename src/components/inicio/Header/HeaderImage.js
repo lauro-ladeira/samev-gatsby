@@ -2,7 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 
-
 // eslint-disable-next-line react/prop-types
 const HeaderImage = ({ className, children }) => {
   const { headerImage } = useStaticQuery(
@@ -13,7 +12,7 @@ const HeaderImage = ({ className, children }) => {
         ) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1366) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
