@@ -2,7 +2,17 @@
     {
         "nome": "Aline Félix",
         "especialidade": "Médica Veterinária",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Clarinha me da meu 3oitão"
+            }
+        ],
         "src": "../images/palestrantes/aline-felix.jpeg",
         "palestras": [
             {
@@ -13,7 +23,14 @@
     {
         "nome": "Amanda Neri",
         "especialidade": "Médica Veterinária e Consultora Educampo Nestlé desde 2018",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/amanda-neri.jpg",
         "palestras": [
             {
@@ -24,7 +41,14 @@
     {
         "nome": "Fábio Fidelis",
         "especialidade": "Médico Veterinário e Empresário do Hospital Veterinário Cambuá",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/fabio-fidelis.jpg",
         "palestras": [
             {
@@ -35,18 +59,32 @@
     {
         "nome": "Fernanda Timbó",
         "especialidade": "Médico Veterinário",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/fernanda-timbo.JPG",
         "palestras": [
-          {
-            "tema": "Neonatologia Equina: a importância dos primeiros cuidados"
-          }  
+            {
+                "tema": "Neonatologia Equina: a importância dos primeiros cuidados"
+            }
         ]
-      },
+    },
     {
         "nome": "Ines Andretta",
         "especialidade": "Zootecnista",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/ines-andretta.jpeg",
         "palestras": [
             {
@@ -57,7 +95,14 @@
     {
         "nome": "Marco Mello",
         "especialidade": "Médico Veterinário e Professor Associado na UFRRJ",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/marco-mello.jpeg",
         "palestras": [
             {
@@ -68,7 +113,14 @@
     {
         "nome": "Maria Gazzinelli",
         "especialidade": "Médica Veterinária",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/maria-gazzinelli.jpg",
         "palestras": [
             {
@@ -79,7 +131,14 @@
     {
         "nome": "Michelle Gouvêa",
         "especialidade": "Médica Veterinária",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/michelle-gouvea.jpg",
         "palestras": [
             {
@@ -90,7 +149,14 @@
     {
         "nome": "Rafael Nudelman",
         "especialidade": "Médico Veterinário",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/rafael-nudelman.jpg",
         "palestras": [
             {
@@ -101,7 +167,14 @@
     {
         "nome": "Rodrigo Mencalha",
         "especialidade": "Médico Veterinário",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/rodrigo-mencalha.jpg",
         "palestras": [
             {
@@ -112,7 +185,14 @@
     {
         "nome": "Shara Regina",
         "especialidade": "Médica Veterinária",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/shara-regina.jpg",
         "palestras": [
             {
@@ -123,7 +203,14 @@
     {
         "nome": "Welden Panziera",
         "especialidade": "Professor adjunto da Faculdade de Veterinária da Universidade Federal do Rio Grande do Sul ",
-        "descricao": "v",
+        "descricao": [
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            },
+            {
+                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+            }
+        ],
         "src": "../images/palestrantes/welden-panziera.jpg",
         "palestras": [
             {
