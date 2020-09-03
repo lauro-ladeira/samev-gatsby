@@ -208,10 +208,10 @@ export const TextBox = styled.p`
 
   ${media.lessThan("890px")`
     overflow: scroll;
+    padding: 10px;
   `}
 `
 export const Text = styled.p`
   text-align: justify;
-
   z-index: 99;
 `
