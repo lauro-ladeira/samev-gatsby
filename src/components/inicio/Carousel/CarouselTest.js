@@ -37,7 +37,9 @@ const Palestrantes = () => {
         nodes {
           nome
           especialidade
-          descricao
+          descricao {
+            topico
+          }
           palestras {
             tema
           }
@@ -109,7 +111,9 @@ const Palestrantes = () => {
               {data.allPalestrantesJson.nodes.map(palestrante => {
                 if (palestrante.nome === palestranteActive.nome) {
                   return (
-                    <S.SetImg active={active ? "activeAvatar" : null} key={Math.random()}
+                    <S.SetImg
+                      active={active ? "activeAvatar" : null}
+                      key={Math.random()}
                       fluid={palestranteActive.src.childImageSharp.fluid}
                     />
                   )
@@ -121,7 +125,16 @@ const Palestrantes = () => {
               {palestranteActive.nome}
             </S.CardNome>
           </S.Info>
-          <S.TextBox>{palestranteActive.descricao}</S.TextBox>
+          <S.TextBox>
+          {data.allPalestrantesJson.nodes.map(palestrante => {
+            if (palestrante.nome === palestranteActive.nome) {
+              return palestranteActive.descricao.map(el => {
+                return <S.Text key={Math.random()}>{el.topico}</S.Text>
+              })
+            }
+            return null
+          })}
+          </S.TextBox>
         </S.Box>
         <Slider {...settings}>
           {data.allPalestrantesJson.nodes.map(palestrante => (
