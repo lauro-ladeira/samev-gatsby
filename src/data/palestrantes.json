@@ -4,13 +4,7 @@
         "especialidade": "Médica Veterinária",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
-            },
-            {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
-            },
-            {
-                "tema": "Clarinha me da meu 3oitão"
+                "topico": "Possui graduação em Medicina Veterinária pela Universidade do Estado de Santa Catarina (2010), mestrado em Ciencia Animal pela Universidade do Estado de Santa Catarina (2013) e doutorado em Ciencia Animal pela Universidade do Estado de Santa Catarina (2017). Atualmente é professora adjunta da Universidade Federal de Santa Catarina nas áreas de Nutrição Animal e Produção de Suínos e Aves. Tem experiência nas áreas de Nutrição Animal e Produção de Monogástricos"
             }
         ],
         "src": "../images/palestrantes/aline-felix.jpeg",
@@ -22,13 +16,13 @@
     },
     {
         "nome": "Amanda Neri",
-        "especialidade": "Médica Veterinária e Consultora Educampo Nestlé desde 2018",
+        "especialidade": "Médica Veterinária e Consultora Educampo Nestlé",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "Médica veterinária, pela Universidade Federal de Viçosa, 2018;"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "Consultora Educampo Nestlé desde 2018."
             }
         ],
         "src": "../images/palestrantes/amanda-neri.jpg",
@@ -40,13 +34,16 @@
     },
     {
         "nome": "Fábio Fidelis",
-        "especialidade": "Médico Veterinário e Empresário do Hospital Veterinário Cambuá",
+        "especialidade": "Médico Veterinário e Empresário",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Fábio Fidelis é Veterinário e Empresário do Hospital Veterinário Cambuá;"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Mais de 10 milhões investidos no mercado pet;"
+            },
+            {
+                "topico": "• Revolucionou o Hospital Veterinário Cambuá em 5 anos, aumentou em mais de 40 vezes o seu faturamento."
             }
         ],
         "src": "../images/palestrantes/fabio-fidelis.jpg",
@@ -61,10 +58,16 @@
         "especialidade": "Médico Veterinário",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Graduação em medicina veterinária na Universidade Federal da Bahia (2008-2013)"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Residência em clínica e cirurgia de ruminantes e equídeos na Universidade Federal de Viçosa (2014-2016);"
+            },
+            {
+                "topico": "• Mestrado em ciência animal com ênfase em obstetrícia e neonatologia equina na Universidade Federal de Pelotas (2017-2019);"
+            },
+            {
+                "topico": "• Responsável pela temporada de nascimentos de 2019 em haras de cavalos de salto na França. Atualmente, diretora técnica da Crescer Soluções em Obstetrícia, Neonatologia e Pediatria Equina e responsável pelo Setor de Perinatologia e Pediatria da Clínica do Rancho (Bahia)."
             }
         ],
         "src": "../images/palestrantes/fernanda-timbo.JPG",
@@ -79,10 +82,7 @@
         "especialidade": "Zootecnista",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
-            },
-            {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "Sou professora adjunta do Departamento de Zootecnia da Universidade Federal do Rio Grande do Sul (desde 2015) e orientadora de mestrado/doutorado no Programa de Pós-Graduação em Zootecnia. Zootecnista, com curso de graduação (2009), mestrado (2011) e doutorado (2014) pela Universidade Federal de Santa Maria. Atuei como assistente de pesquisa no Agriculture and Agri-Food Canada (2013). Após, realizei estágio de pós-doutoramento na Universidade Estadual Paulista Júlio de Mesquita Filho - Jaboticabal (2014). Possuo experiência na área de produção de animais não-ruminantes, com ênfase em suinocultura, avicultura e alimentação de precisão. Sou mãe do Pedro Ivo Andretta Kipper, nascido em 22/10/2018."
             }
         ],
         "src": "../images/palestrantes/ines-andretta.jpeg",
@@ -97,10 +97,7 @@
         "especialidade": "Médico Veterinário e Professor Associado na UFRRJ",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
-            },
-            {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "Marco Roberto Bourg de Mello possui graduação em Medicina Veterinária pela Universidade de São Paulo (1991-1995), Mestrado (1997-1999) e Doutorado (1999-2003) em Reprodução Animal pela Universidade de São Paulo e Pós-Doutorado pela Universidade de Illinois em Urbana-Champaign (2004-2006). Atualmente é Professor Associado na Universidade Federal Rural do Rio de Janeiro (UFRRJ) onde ingressou em 2006. É Professor Orientador nos Programas de Pós-Graduação em Zootecnia e em Medicina Veterinária da UFRRJ. É membro da Sociedade Brasileira de Tecnologia de Embriões (SBTE) desde 1996. Tem experiência na área de Reprodução Animal, com ênfase em Biotecnologia Animal, atuando principalmente nos seguintes temas: inseminação artificial em bovinos; sincronização do estro e da ovulação em bovinos; transferência de embriões; fecundação in vitro; clonagem e criopreservação de embriões."
             }
         ],
         "src": "../images/palestrantes/marco-mello.jpeg",
@@ -115,10 +112,13 @@
         "especialidade": "Médica Veterinária",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Maria Gazzinelli Neves, Médica Veterinária -  CRMV/MG 12597;"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• D. Sc. em Zootecnia - Reprodução Animal - UFV;"
+            },
+            {
+                "topico": "• Proprietária do CEFEQUI- Centro de Equoeterapia e Formação Equestre/ Viçosa-MG."
             }
         ],
         "src": "../images/palestrantes/maria-gazzinelli.jpg",
@@ -133,10 +133,22 @@
         "especialidade": "Médica Veterinária",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Graduada em Medicina Veterinária pela PUC-MG" 
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Pós-graduada em Clínica e Cirurgia de Pequenos Animais pela Equalis;"
+            },
+            {
+                "topico": "• Pós-graduada em Oftalmologia de Pequenos Animais pela Anclivepa-SP;"
+            },
+            {
+                "topico": "• Professora de Oftalmologia de Pequenos Animais no CPT Cursos Presenciais;"
+            },
+            {
+                "topico": "• Mestranda UFMG com linha de pesquisa em Oftalmologia Veterinária;"
+            },
+            {
+                "topico": "• Atuação exclusiva na área de Oftalmologia Veterinária em Belo Horizonte e região."
             }
         ],
         "src": "../images/palestrantes/michelle-gouvea.jpg",
@@ -151,10 +163,25 @@
         "especialidade": "Médico Veterinário",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• M.V formado pela UNESA;"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Residência no CRAS - Centro de Recuperação de animais silvestres da UNESA;"
+            },
+            {
+                "topico": "• Pós graduado em clínica e cirurgia de animais silvestres pelo Qualittas;"
+            },
+            {
+                "topico": "• Pós graduado em anestesiologia pela PAV;"
+            },
+            {
+                "topico": "• Pós graduando em farmacologia veterinária pelo Qualittas;"
+            },
+            {
+                "topico": "• Professor de pós graduação nas area de anestesiologia;"
+            },
+            {
+                "topico": "• Sócio proprietário do centro veterinário lagoa e da Clinica PROSIlvestres."
             }
         ],
         "src": "../images/palestrantes/rafael-nudelman.jpg",
@@ -169,10 +196,31 @@
         "especialidade": "Médico Veterinário",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Médico veterinário formado pela UFruralRJ;"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Doutorado com ênfase em anestesia regional pela UFruralRJ;"
+            },
+            {
+                "topico": "• Mestrado com ênfase em farmacologia pela UFruralRJ;"
+            },
+            {
+                "topico": "• Pós-graduado em Dor e Cuidados Paliativos pelo Instituto Albert Einstein;"
+            },
+            {
+                "topico": "• Autor do livro abordagem e tratamento da dor crônica em cães e gatos;"
+            },
+            {
+                "topico": "• Experiência de 15 anos no ensino da graduação e gestão acadêmica;"
+            },
+            {
+                "topico": "• Atualmente é Professor de Anestesiologia e Farmacologia da Universidade Federal do Acre;"
+            },
+            {
+                "topico": "• Diretor Científico dos Cursos de Anestesiologia do Instituto MelloVet;"
+            },
+            {
+                "topico": "• Co-fundador da Hypnos Anestesia Veterinária."
             }
         ],
         "src": "../images/palestrantes/rodrigo-mencalha.jpg",
@@ -187,10 +235,13 @@
         "especialidade": "Médica Veterinária",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Médica Veterinária pela UFV, 2002;"
             },
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "• Mestre em Ciências pela Fundação Oswaldo Cruz, 2009;"
+            },
+            {
+                "topico": "• Doutora pela Fundação Oswaldo Cruz, 2015. Atualmente é presidente e responsável técnica da ONG Meu Amigo Cão de Ipatinga, professora do Unileste MG e médica veterinária do Centro de Controle de Zoonoses de Ipatinga. Tem experiência na área de controle de Zoonoses, em especial a leishmaniose visceral e a esporotricose."
             }
         ],
         "src": "../images/palestrantes/shara-regina.jpg",
@@ -202,13 +253,10 @@
     },
     {
         "nome": "Welden Panziera",
-        "especialidade": "Professor adjunto da Faculdade de Veterinária da Universidade Federal do Rio Grande do Sul ",
+        "especialidade": "Médico Veterinário",
         "descricao": [
             {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
-            },
-            {
-                "tema": "Leishmaniose, Esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses"
+                "topico": "Possui graduação (2012) em medicina veterinária pela Universidade Federal de Santa Maria (UFSM), mestrado (2015) na área de Patologia Veterinária pelo Programa de Pós-Graduação em Medicina Veterinária (PPGMV/UFSM) pela mesma instituição e doutorado (2018) em Patologia Veterinária pelo Programa de Pós-graduação em Ciências Veterinárias da Universidade Federal do Rio Grande do Sul (PPGCV/UFRGS). Realizou pós-doutorado no Setor de Patologia Veterinária da UFRGS. Atualmente é professor adjunto da Faculdade de Veterinária da Universidade Federal do Rio Grande do Sul (FAVET-UFRGS), lotado no Departamento de Patologia Clínica Veterinária. Tem experiência em Medicina Veterinária, com ênfase em Toxicologia e Patologia Veterinária."
             }
         ],
         "src": "../images/palestrantes/welden-panziera.jpg",

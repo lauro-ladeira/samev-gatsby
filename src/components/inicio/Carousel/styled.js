@@ -61,9 +61,10 @@ export const CardContainer = styled.a`
   `}
 `
 export const CardImage = styled.div`
-  height: 70px;
-  margin: 20px auto;
-  width: 70px;
+  height: 100px;
+  margin: 20px 20px;
+  width: 100px;
+  align-self: center;
 
   ${props =>
     props.active === "activeAvatar" &&
@@ -72,7 +73,7 @@ export const CardImage = styled.div`
       width: 200px;
     `}
 
-  ${media.lessThan("480px")`
+  ${media.lessThan("544px")`
     height: 100px;
     width: 100px;
     /* background-size: 100px; */
@@ -104,8 +105,8 @@ export const CardPalestras = styled.p`
 `
 
 export const SetImg = styled(Img)`
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 
   ${props =>
@@ -114,6 +115,16 @@ export const SetImg = styled(Img)`
       height: 200px;
       width: 200px;
     `}
+  
+  ${media.lessThan("544px")`
+    ${props =>
+      props.active === "activeAvatar" &&
+      css`
+        background-size: 100px;
+        height: 100px;
+        width: 100px;
+      `}
+  `}
 `
 
 export const Box = styled.div`
@@ -192,11 +203,15 @@ export const TextBox = styled.p`
   font-size: 16px;
   line-height: 24px;
   margin: 40px 20px 20px;
-  text-align: justify;
 
   z-index: 99;
 
   ${media.lessThan("890px")`
     overflow: scroll;
   `}
+`
+export const Text = styled.p`
+  text-align: justify;
+
+  z-index: 99;
 `

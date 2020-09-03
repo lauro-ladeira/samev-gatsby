@@ -38,7 +38,7 @@ const Palestrantes = () => {
           nome
           especialidade
           descricao {
-            tema
+            topico
           }
           palestras {
             tema
@@ -106,32 +106,35 @@ const Palestrantes = () => {
               +
             </S.CloseButton>
           </S.Header>
+          <S.Info>
+            <S.CardImage active={active ? "activeAvatar" : null}>
+              {data.allPalestrantesJson.nodes.map(palestrante => {
+                if (palestrante.nome === palestranteActive.nome) {
+                  return (
+                    <S.SetImg
+                      active={active ? "activeAvatar" : null}
+                      key={Math.random()}
+                      fluid={palestranteActive.src.childImageSharp.fluid}
+                    />
+                  )
+                }
+                return null
+              })}
+            </S.CardImage>
+            <S.CardNome active={active ? "activeName" : null}>
+              {palestranteActive.nome}
+            </S.CardNome>
+          </S.Info>
+          <S.TextBox>
           {data.allPalestrantesJson.nodes.map(palestrante => {
             if (palestrante.nome === palestranteActive.nome) {
-              return (
-                <>
-                  <S.Info>
-                    <S.CardImage active={active ? "activeAvatar" : null}>
-                      <S.SetImg
-                        active={active ? "activeAvatar" : null}
-                        key={Math.random()}
-                        fluid={palestranteActive.src.childImageSharp.fluid}
-                      />
-                    </S.CardImage>
-                    <S.CardNome active={active ? "activeName" : null}>
-                      {palestranteActive.nome}
-                    </S.CardNome>
-                  </S.Info>
-                  {palestranteActive.descricao.map(el => {
-                    return (
-                      <S.TextBox key={Math.random()}>{el.tema}</S.TextBox>
-                    )
-                  })}
-                </>
-              )
+              return palestranteActive.descricao.map(el => {
+                return <S.Text key={Math.random()}>{el.topico}</S.Text>
+              })
             }
             return null
           })}
+          </S.TextBox>
         </S.Box>
         <Slider {...settings}>
           {data.allPalestrantesJson.nodes.map(palestrante => (
