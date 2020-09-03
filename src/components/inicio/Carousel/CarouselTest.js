@@ -144,7 +144,7 @@ const Palestrantes = () => {
                 active={active ? "activeClose" : null}
               >
                 <S.CardImage>
-                  <S.SetImg fluid={palestrante.src.childImageSharp.fluid} />
+                  <S.SetImg fluid={palestrante.src.childImageSharp.fluid} durationFadeIn={100} />
                 </S.CardImage>
                 <S.CardNome>{palestrante.nome}</S.CardNome>
                 <S.CardEspecialidade>
