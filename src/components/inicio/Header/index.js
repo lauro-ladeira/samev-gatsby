@@ -21,7 +21,7 @@ const Header = () => {
             Semana Acadêmica de Medicina Veterinária <S.Break />
           </S.Description>
           <S.Color>
-            de 01 a 02 de novembro <S.Break />
+            de 24 a 28 de novembro de 2020 <S.Break />
           </S.Color>
           <S.ColorSmaller style={{ fontWeight: "normal" }}>
             Evento Online
