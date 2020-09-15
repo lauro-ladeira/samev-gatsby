@@ -3,7 +3,7 @@ import media from "styled-media-query"
 
 export const ProgramacaoWrapper = styled.div`
   width: 100%;
-  height: 400px;
+  background-color: #6bc1dd;
 `
 
 export const ProgramacaoContainer = styled.div`
@@ -12,7 +12,7 @@ export const ProgramacaoContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 75%;
-  padding-top: 25vh;
+  padding: 50px 0;
 
   ${media.lessThan("large")`
     width: 85%;
@@ -23,12 +23,31 @@ export const ProgramacaoContainer = styled.div`
    padding-top: 30vh;
   `}
 `
+export const DayBox = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  padding-bottom: 30px;
+`
+export const TitleBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #060761;
+  border-radius: 20px 20px 0 0 ;
+  height: 50px;
+  width: 100%;
+`
 
 export const Title = styled.h1`
   font-size: 30px;
   line-height: 35px;
-  color: #333;
-  font-family: 'Roboto Condensed';
+  color: #fff;
+  font-family: "Roboto Condensed";
   font-weight: bold;
 
   ${media.lessThan("910px")`
@@ -39,5 +58,17 @@ export const Title = styled.h1`
   ${media.lessThan("388px")`
     font-size: 22px;
   `}
-
+`
+export const GridContainer = styled.div`
+  margin-top: 20px;
+  width: 100%;
+`
+export const Row = styled.div`
+  font-family: "Roboto Condensed";
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+`
+export const Column = styled.div`
+  display: inline-block;
+  padding: 15px;
 `

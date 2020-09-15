@@ -42,6 +42,8 @@ export const HeaderContainer = styled.div`
 `
 
 export const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   width: 75%;
   height: 100%;
 
