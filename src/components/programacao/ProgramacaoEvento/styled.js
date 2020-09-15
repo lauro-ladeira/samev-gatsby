@@ -11,16 +11,12 @@ export const ProgramacaoContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 75%;
   padding: 50px 0;
 
   ${media.lessThan("large")`
     width: 85%;
-  `}
-
-  ${media.lessThan("medium")`
-   flex-direction: column;
-   padding-top: 30vh;
   `}
 `
 export const DayBox = styled.div`
@@ -38,7 +34,7 @@ export const TitleBox = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #060761;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
   height: 50px;
   width: 100%;
 `
@@ -67,6 +63,10 @@ export const Row = styled.div`
   font-family: "Roboto Condensed";
   display: grid;
   grid-template-columns: 1fr 5fr;
+
+  ${media.lessThan("700px")`
+  grid-template-columns: 30% 70%;
+  `}
 `
 export const Column = styled.div`
   display: inline-block;

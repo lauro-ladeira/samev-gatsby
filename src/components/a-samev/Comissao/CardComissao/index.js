@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import * as S from "./styled"
 
-function CardComissao({ nome, descricao, url }) {
+function CardComissao({ nome, funcao, descricao, url }) {
   const [active, setActive] = useState(false)
 
   const escFunction = event => {
@@ -39,6 +39,7 @@ function CardComissao({ nome, descricao, url }) {
         <S.Info>
           <S.CardImage path={path} active={active ? "activeAvatar" : null} />
           <S.CardNome active={active ? "activeName" : null}>{nome}</S.CardNome>
+          <S.CardFunction active={active ? "activeFunction" : null}>{funcao}</S.CardFunction>
         </S.Info>
         <S.TextBox>{descricao}</S.TextBox>
       </S.Box>

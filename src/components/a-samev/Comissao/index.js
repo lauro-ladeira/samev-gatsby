@@ -41,6 +41,7 @@ function Comissao({ dados }) {
                 <CardComissao
                   key={i}
                   nome={dados.nome}
+                  funcao={dados.funcao}
                   descricao={dados.descricao}
                   url={dados.url}
                 />
@@ -57,6 +58,7 @@ function Comissao({ dados }) {
                 <CardComissao
                   key={i}
                   nome={dados.nome}
+                  funcao={dados.funcao}
                   descricao={dados.descricao}
                   url={dados.url}
                 />

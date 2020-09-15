@@ -49,9 +49,9 @@ const Navbar = () => {
           <S.MenuItem>
             <S.MenuLink to="/resumos" activeClassName="active">Resumos</S.MenuLink>
           </S.MenuItem>
-          <S.MenuItem>
+          {/* <S.MenuItem>
             <S.MenuLink to="/contato" activeClassName="active">Contato</S.MenuLink>
-          </S.MenuItem>
+          </S.MenuItem> */}
         </S.MenuContainer>
         <S.Circle active={active ? 'activeMenu' : null} />
         <S.Burger onClick={toggleClassName}>
