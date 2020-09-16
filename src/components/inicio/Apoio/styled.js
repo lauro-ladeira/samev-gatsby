@@ -1,6 +1,6 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 // import Img from 'gatsby-image'
-// import media from "styled-media-query"
 // import { Link } from "gatsby"
 
 // import ApoiadorImage from "../../../../apoiador.jpg"
@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   width: 75%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 50px 0;
 `
 
 export const Title = styled.h1`
@@ -35,6 +35,11 @@ export const ApoiadoresContainer = styled.div`
 
 export const ImgWrapper = styled.div`
   /* background: red; */
-  width: 400px;
-  margin: 0 3px 20px;
-`;
+  width: 25%;
+  margin: 0 10px 20px;
+
+  ${media.lessThan("768px")`
+    width: 80%;
+    margin: 0 10% 30px;
+  `}
+`

@@ -90,6 +90,37 @@ export const CardNome = styled.h1`
     width: 80px;
   `}
 `
+export const CardFunction = styled.h2`
+  position: absolute;
+  width: 40px;
+  left: 20px;
+  bottom: 20px;
+  margin-top: 5px;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  color: #060761;
+
+  ${props =>
+    props.active === "activeFunction" &&
+    css`
+      text-align: center;
+      position: static;
+      font-size: 16px;
+      width: 80%;
+    `}
+
+  ${media.lessThan("544px")`
+    font-size: 12px;
+    text-align: center;
+    left: 10px;
+    bottom: 10px;
+    width: 80px;
+  `}
+`
 
 export const CardButton = styled.a`
   display: flex;
