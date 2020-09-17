@@ -138,5 +138,22 @@
                 "tema": "Rafael Nudelman - “Endoscopia digestiva: doenças esofágicas, gástricas e intestinais. Como proceder?”"
             }
         ]
+    },
+    {
+        "dia": "28/11 - SÁBADO ",
+        "palestras": [
+            {
+                "horario": "8h - 11h",
+                "tema": "Murilo Charlier  -“Afecções Torácicas - Desafios e Potenciais do Diagnóstico Por Imagem”"
+            },
+            {
+                "horario": "MANHÃ",
+                "tema": "Carine Stefanello - “Abordagem diagnóstica das Otopatias em cães e gatos”"
+            },
+            {
+                "horario": "GRAVADAS",
+                "tema": "Ana Flávia Chizzotti - “Nutrição em cães e gatos: qual sua influência sobre a imunidade?”"
+            }
+        ]
     }
 ]
