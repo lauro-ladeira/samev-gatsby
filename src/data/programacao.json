@@ -102,4 +102,41 @@
             }
         ]
     }
+    {
+        "dia": "27/11 - SEXTA-FEIRA ",
+        "palestras": [
+            {
+                "horario": "8h - 11h",
+                "tema": "Rafael Bombachi  -“Oftalmologia básica: o que o clínico deve saber?”"
+            },
+            {
+                "horario": "MANHÃ",
+                "tema": "Rodrigo Mencalha - “Bloqueios Analgésico para Alívio da dor crônica”"
+            },
+            {
+                "horario": "GRAVADAS",
+                "tema": "Welden Panziera - “Toxicologia Veterinária”"
+            },
+            {
+                "horario": "GRAVADAS",
+                "tema": "Camila Utrera – “Oncologia em pequenos animais - Como lidar com pacientes terminais?”"
+            },
+            {
+                "horario": "GRAVADAS",
+                "tema": "Ana Paula Simões - “Manejo de neonatos: você sabe de tudo?”"
+            },
+            {
+                "horario": "GRAVADAS",
+                "tema": "Henrique Machado - “Evolução e perspectivas da inseminação artificial em fêmeas bovinas”"
+            }
+            {
+                "horario": "GRAVADAS",
+                "tema": "Pat Rober - “Enriquecimento ambiental felino”"
+            }
+            {
+                "horario": "GRAVADAS",
+                "tema": "Rafael Nudelman - “Endoscopia digestiva: doenças esofágicas, gástricas e intestinais. Como proceder?”"
+            }
+        ]
+    }
 ]
