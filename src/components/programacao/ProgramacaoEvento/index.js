@@ -1,6 +1,45 @@
 import React from "react"
 import * as S from "./styled"
 
+import programacao from "../../../data/programacao.json"
+
+const ProgramacaoEvento = () => {
+  return (
+    <S.ProgramacaoWrapper>
+      <S.ProgramacaoContainer>
+        {programacao.map(el => {
+          return (
+            <S.DayBox key={Math.random()}>
+              <S.TitleBox>
+                <S.Title>{el.dia}</S.Title>
+              </S.TitleBox>
+              <S.GridContainer>
+                {el.palestras.map((palestra, i) => {
+                  return (
+                    <S.Row style={ i % 2 !== 0 ? { backgroundColor: "#eee" } : {} } key={Math.random()}>
+                      <S.Column
+                        style={{ fontWeight: "bold", textAlign: "center" }}
+                      >
+                        {palestra.horario}
+                      </S.Column>
+                      <S.Column>{palestra.tema} </S.Column>
+                    </S.Row>
+                  )
+                })}
+              </S.GridContainer>
+            </S.DayBox>
+          )
+        })}
+      </S.ProgramacaoContainer>
+    </S.ProgramacaoWrapper>
+  )
+}
+
+export default ProgramacaoEvento
+
+/* import React from "react"
+import * as S from "./styled"
+
 const ProgramacaoEvento = () => {
   return (
     <S.ProgramacaoWrapper>
@@ -58,3 +97,4 @@ const ProgramacaoEvento = () => {
 }
 
 export default ProgramacaoEvento
+ */
