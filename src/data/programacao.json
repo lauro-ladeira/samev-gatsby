@@ -1,170 +1,276 @@
 [
     {
-        "dia": "24/11 - TERÇA-FEIRA ",
+        "dia": "24 de novembro – Terça-feira ",
         "palestras": [
             {
-                "horario": "",
-                "tema": "VÍDEO DE ABERTURA - COMISSÃO COORDENADORA SAMEV 2020"
-            },
-            {
-                "horario": "8h - 11h",
-                "tema": "Carla Maris Machado Bittar - “Colostragem: Como obter a máxima eficiência na transferência de imunidade passiva”"
-            },
-            {
-                "horario": "MANHÃ",
-                "tema": "Júlia Pessoa - “Fisioterapia em pequenos animais: modalidades terapêuticas”"
-            },
-            {
-                "horario": "GRAVADAS",
-                "tema": "Shara Regina – “Leishmaniose, esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses”"
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestras GRAVADAS - Disponíveis a partir das 10h"
             },
             {
                 "horario": "",
-                "tema": "Tays Araujo Camilo - “As aves e a saúde pública”"
+                "tema": " – “Colostragem: Como obter a máxima eficiência na transferência de imunidade passiva”",
+                "palestrante": "Carla Maris Machado Bittar"
             },
             {
                 "horario": "",
-                "tema": "Bruno Benetti - “Cirurgias cranioencefálicas em cães e gatos : qual a realidade no Brasil?”"
+                "tema": " – “Fisioterapia em pequenos animais: modalidades terapêuticas”",
+                "palestrante": "Júlia Pessoa"
             },
             {
                 "horario": "",
-                "tema": "Mariana Costa Fausto - “Atualizações do Programa Nacional de Sanidade Suídea”"
+                "tema": " – “Leishmaniose, esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses”",
+                "palestrante": "Shara Regina"
             },
             {
                 "horario": "",
-                "tema": "Maricy Apparício - “Cesarianas em pequenos animais: quando e como realizar?”"
+                "tema": " – “As aves e a saúde pública”",
+                "palestrante": "Tays Araujo Camilo"
             },
             {
-                "horario": "19h PALESTRA AO VIVO",
-                "tema": "Yasmin Martins - “Saúde mental dos estudantes”"
+                "horario": "",
+                "tema": " – “Cirurgias cranioencefálicas em cães e gatos : qual a realidade no Brasil?”",
+                "palestrante": "Bruno Benetti"
+            },
+            {
+                "horario": "",
+                "tema": " – “Atualizações do Programa Nacional de Sanidade Suídea”",
+                "palestrante": "Mariana Costa Fausto"
+            },
+            {
+                "horario": "",
+                "tema": " – “Cesarianas em pequenos animais: quando e como realizar?”",
+                "palestrante": "Maricy Apparício"
+            },
+            {
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestra AO VIVO 19h"
+            },
+            {
+                "horario": "",
+                "tema": " – “Saúde mental dos estudantes”",
+                "palestrante": "Yasmin Martins"
             }
         ]
     },
     {
-        "dia": "25/11 - QUARTA-FEIRA ",
+        "dia": "25 de novembro – Quarta-feira ",
         "palestras": [
             {
-                "horario": "8h - 11h",
-                "tema": "Fábio Fidelis -“O que não te contaram sobre o gerenciamento de clínicas veterinárias''"
-            },
-            {
-                "horario": "MANHÃ",
-                "tema": "Claudio Barros - “Afecções do sistema nervoso em animais de produção: como proceder para o diagnóstico”"
-            },
-            {
-                "horario": "GRAVADAS",
-                "tema": "Gustavo Cobucci - “Doenças endócrinas, um pouquinho de cada uma”"
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestras GRAVADAS - Disponíveis a partir das 10h"
             },
             {
                 "horario": "",
-                "tema": "Maria Gazzinelli - “Atualidades sobre o incremento da qualidade do sêmen equino! O que há de novo?”"
+                "tema": " –“O que não te contaram sobre o gerenciamento de clínicas veterinárias''",
+                "palestrante": "Fábio Fidelis"
             },
             {
                 "horario": "",
-                "tema": "Renata Novais Mencalha - “Desvendando os mistérios do prurido em felinos”"
+                "tema": " – “Afecções do sistema nervoso em animais de produção: como proceder para o diagnóstico”",
+                "palestrante": "Claudio Barros"
             },
             {
                 "horario": "",
-                "tema": "Amanda Neri – “Mercado de trabalho na indústria leiteira para recém formados”"
+                "tema": " – “Doenças endócrinas, um pouquinho de cada uma”",
+                "palestrante": "Gustavo Cobucci"
             },
             {
                 "horario": "",
-                "tema": "Magna Coroa - “A Microbioma e biotecnologia na produção de caprinos”"
+                "tema": " – “Atualidades sobre o incremento da qualidade do sêmen equino! O que há de novo?”",
+                "palestrante": "Maria Gazzinelli"
             },
             {
                 "horario": "",
-                "tema": "Ines Andretta - “Mitos e verdades da Suinocultura moderna”"
+                "tema": " – “Desvendando os mistérios do prurido em felinos”",
+                "palestrante": "Renata Novais Mencalha"
             },
             {
-                "horario": "19h PALESTRA AO VIVO",
-                "tema": "Alessandro Bijjeni - “Animais Silvestres como Pet no Brasil: qual o cenário atual?”"
+                "horario": "",
+                "tema": " – “Mercado de trabalho na indústria leiteira para recém formados”",
+                "palestrante": "Amanda Neri"
+            },
+            {
+                "horario": "",
+                "tema": " – “A Microbioma e biotecnologia na produção de caprinos”",
+                "palestrante": "Magna Coroa"
+            },
+            {
+                "horario": "",
+                "tema": " – “Mitos e verdades da Suinocultura moderna”",
+                "palestrante": "Ines Andretta"
+            },
+            {
+                "horario": "",
+                "tema": "",
+                "palestrante": "AGUARDE NOVIDADES..."
+            },
+            {
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestra AO VIVO 19h"
+            },
+            {
+                "horario": "",
+                "tema": " – “Animais Silvestres como Pet no Brasil: qual o cenário atual?”",
+                "palestrante": "Alessandro Bijjeni"
             }
         ]
     },
     {
-        "dia": "26/11 - QUINTA-FEIRA ",
+        "dia": "26 de novembro – Quinta-feira ",
         "palestras": [
             {
-                "horario": "8h - 11h",
-                "tema": "Rafael Bombachi  -“Papel do Médico Veterinário em serviços de fiscalização relacionados aos produtos de origem animal”"
-            },
-            {
-                "horario": "MANHÃ",
-                "tema": "Gustavo Parreiras - “Educação continuada para tutor em clínica de gatos: quais os benefícios?”"
-            },
-            {
-                "horario": "GRAVADAS",
-                "tema": "Vinícius Albernaz - “Principais neoplasias na rotina cirúrgica em cães”"
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestras GRAVADAS - Disponíveis a partir das 10h"
             },
             {
                 "horario": "",
-                "tema": "Abelardo Silva Júnior – “A medicina veterinária na saúde pública: experiência de um Médico Veterinário no diagnóstico da COVID19”"
+                "tema": " – “Papel do Médico Veterinário em serviços de fiscalização relacionados aos produtos de origem animal”",
+                "palestrante": "Rafael Bombachi"
             },
             {
                 "horario": "",
-                "tema": "Tiago Facury - “Afecções podais em bovinos: da fazenda ao laboratório”"
+                "tema": " – “Educação continuada para tutor em clínica de gatos: quais os benefícios?”",
+                "palestrante": "Gustavo Parreiras"
             },
             {
                 "horario": "",
-                "tema": "Laís Ângelo de Abreua - “Evolução e perspectivas da inseminação artificial em fêmeas bovinas”"
+                "tema": " – “Principais neoplasias na rotina cirúrgica em cães”",
+                "palestrante": "Vinícius Albernaz"
             },
             {
                 "horario": "",
-                "tema": "Pat Rober - “Enriquecimento ambiental felino”"
+                "tema": " – “A medicina veterinária na saúde pública: experiência de um Médico Veterinário no diagnóstico da COVID19”",
+                "palestrante": "Abelardo Silva Júnior"
             },
             {
                 "horario": "",
-                "tema": "Rafael Nudelman - “Casos clínicos na anestesiologia de animais silvestres”"
+                "tema": " – “Afecções podais em bovinos: da fazenda ao laboratório”",
+                "palestrante": "Tiago Facury"
             },
             {
-                "horario": "19h PALESTRA AO VIVO",
-                "tema": "Renata Arruda - “Importância do prontuário na prevenção jurídica do médico veterinário”"
+                "horario": "",
+                "tema": " – “Evolução e perspectivas da inseminação artificial em fêmeas bovinas”",
+                "palestrante": "Laís Ângelo de Abreu"
+            },
+            {
+                "horario": "",
+                "tema": " – “Enriquecimento ambiental felino”",
+                "palestrante": "Pat Rober"
+            },
+            {
+                "horario": "",
+                "tema": " – “Casos clínicos na anestesiologia de animais silvestres”",
+                "palestrante": "Rafael Nudelman"
+            },
+            {
+                "horario": "",
+                "tema": "",
+                "palestrante": "AGUARDE NOVIDADES..."
+            },
+            {
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestra AO VIVO 19h"
+            },
+            {
+                "horario": "",
+                "tema": " – “Importância do prontuário na prevenção jurídica do médico veterinário”",
+                "palestrante": "Renata Arruda"
             }
         ]
     },
     {
-        "dia": "27/11 - SEXTA-FEIRA ",
+        "dia": "27 de novembro – Sexta-feira ",
         "palestras": [
             {
-                "horario": "8h - 11h",
-                "tema": "Michelle Gouvêa Gomes  -“Oftalmologia básica: o que o clínico deve saber?”"
-            },
-            {
-                "horario": "MANHÃ",
-                "tema": "Rodrigo Mencalha - “Bloqueios Analgésico para Alívio da dor crônica”"
-            },
-            {
-                "horario": "GRAVADAS",
-                "tema": "Welden Panziera - “Toxicologia Veterinária”"
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestras GRAVADAS - Disponíveis a partir das 10h"
             },
             {
                 "horario": "",
-                "tema": "Camila Utrera – “Oncologia em pequenos animais - Como lidar com pacientes terminais?”"
+                "tema": " – “Oftalmologia básica: o que o clínico deve saber?”",
+                "palestrante": "Michelle Gouvêa Gomes"
             },
             {
                 "horario": "",
-                "tema": "Ana Paula Simões - “Manejo de neonatos: você sabe de tudo?”"
+                "tema": " – “Bloqueios Analgésico para Alívio da dor crônica”",
+                "palestrante": "Rodrigo Mencalha"
             },
             {
                 "horario": "",
-                "tema": "Henrique Machado - “Endoscopia digestiva: doenças esofágicas, gástricas e intestinais. Como proceder?”"
+                "tema": " – “Toxicologia Veterinária”",
+                "palestrante": "Welden Panziera"
+            },
+            {
+                "horario": "",
+                "tema": " – “Oncologia em pequenos animais – Como lidar com pacientes terminais?”",
+                "palestrante": "Camila Utrera"
+            },
+            {
+                "horario": "",
+                "tema": " – “Manejo de neonatos: você sabe de tudo?”",
+                "palestrante": "Ana Paula Simões"
+            },
+            {
+                "horario": "",
+                "tema": " – “Endoscopia digestiva: doenças esofágicas, gástricas e intestinais. Como proceder?”",
+                "palestrante": "Henrique Machado"
+            },
+            {
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestra AO VIVO 19h"
+            },
+            {
+                "horario": "",
+                "tema": "",
+                "palestrante": "A CONFIRMAR"
             }
         ]
     },
     {
-        "dia": "28/11 - SÁBADO ",
+        "dia": "28 de novembro – Sábado ",
         "palestras": [
             {
-                "horario": "8h - 11h",
-                "tema": "Murilo Charlier  -“Afecções Torácicas - Desafios e Potenciais do Diagnóstico Por Imagem”"
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestras GRAVADAS - Disponíveis a partir das 10h"
             },
             {
-                "horario": "MANHÃ",
-                "tema": "Carine Stefanello - “Abordagem diagnóstica das Otopatias em cães e gatos”"
+                "horario": "",
+                "tema": "  –“Afecções Torácicas – Desafios e Potenciais do Diagnóstico Por Imagem”",
+                "palestrante": "Murilo Charlier"
+            },
+            {
+                "horario": "",
+                "tema": " – “Abordagem diagnóstica das Otopatias em cães e gatos”",
+                "palestrante": "Carine Stefanello – “Abordagem diagnóstica das Otopatias em cães e gatos”"
             },
             {
                 "horario": "GRAVADAS",
-                "tema": "Ana Flávia Chizzotti - “Nutrição em cães e gatos: qual sua influência sobre a imunidade?”"
+                "tema": " – “Nutrição em cães e gatos: qual sua influência sobre a imunidade?”",
+                "palestrante": "Ana Flávia Chizzotti"
+            },
+            {
+                "horario": "",
+                "tema": "",
+                "palestrante": "AGUARDE NOVIDADES..."
+            },
+            {
+                "horario": "TITULO",
+                "tema": "",
+                "palestrante": "Palestra AO VIVO 19h"
+            },
+            {
+                "horario": "",
+                "tema": "",
+                "palestrante": "A CONFIRMAR"
             }
         ]
     }

@@ -60,33 +60,36 @@ export const GridContainer = styled.div`
   margin-top: 0;
   width: 100%;
 `
+
 export const Row = styled.div`
   font-family: "Roboto Condensed";
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr 1fr;
 
   ${media.lessThan("700px")`
   grid-template-columns: 30% 70%;
   `}
 `
 
-export const RowGravadas = styled.div`
+/* export const RowGravadas = styled.div`
   font-family: "Roboto Condensed";
   display: grid;
-  grid-template-columns: 5fr;
+  grid-template-columns: 1fr 3fr 1fr;
 
   ${media.lessThan("700px")`
   grid-template-columns: 30% 70%;
   `}
-`
+` */
 
 export const Column = styled.div`
+  line-height: 19px;
   display: inline-block;
   padding: 15px;
+  text-align: ${props => props.titulo === 'TITULO' ? 'center' : ''};
 `
 
-export const ColumnGravadas = styled.div`
+/* export const ColumnGravadas = styled.div`
   display: inline-block;
   text-align: center;
   padding: 15px;
-`
+` */

@@ -16,13 +16,16 @@ const ProgramacaoEvento = () => {
               <S.GridContainer>
                 {el.palestras.map((palestra, i) => {
                   return (
-                    <S.Row style={ i % 2 !== 0 ? { backgroundColor: "#eee" } : {} } key={Math.random()}>
-                      <S.Column
-                        style={{ fontWeight: "bold", textAlign: "center" }}
-                      >
-                        {palestra.horario}
+                    <S.Row
+                      style={i % 2 !== 0 ? { backgroundColor: "#eee" } : {}}
+                      key={Math.random()}
+                    >
+                      <S.Column />
+                      <S.Column titulo={palestra.horario}>
+                        <strong>{palestra.palestrante}</strong>
+                        {palestra.tema}{" "}
                       </S.Column>
-                      <S.Column>{palestra.tema} </S.Column>
+                      <S.Column />
                     </S.Row>
                   )
                 })}
