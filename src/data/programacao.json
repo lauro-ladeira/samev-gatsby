@@ -3,36 +3,40 @@
         "dia": "24/11 - TERÇA-FEIRA ",
         "palestras": [
             {
-                "horario": "8h - 11h",
+                "horario": "",
                 "tema": "VÍDEO DE ABERTURA - COMISSÃO COORDENADORA SAMEV 2020"
-            },
-            {
-                "horario": "MANHÃ",
-                "tema": "Júlia Pessoa - “Fisioterapia em pequenos animais: modalidades terapêuticas”"
             },
             {
                 "horario": "8h - 11h",
                 "tema": "Carla Maris Machado Bittar - “Colostragem: Como obter a máxima eficiência na transferência de imunidade passiva”"
             },
             {
+                "horario": "MANHÃ",
+                "tema": "Júlia Pessoa - “Fisioterapia em pequenos animais: modalidades terapêuticas”"
+            },
+            {
                 "horario": "GRAVADAS",
                 "tema": "Shara Regina – “Leishmaniose, esporotricose e a atuação do médico veterinário no Centro de Controle de Zoonoses”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Tays Araujo Camilo - “As aves e a saúde pública”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Bruno Benetti - “Cirurgias cranioencefálicas em cães e gatos : qual a realidade no Brasil?”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Mariana Costa Fausto - “Atualizações do Programa Nacional de Sanidade Suídea”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Maricy Apparício - “Cesarianas em pequenos animais: quando e como realizar?”"
+            },
+            {
+                "horario": "19h PALESTRA AO VIVO",
+                "tema": "Yasmin Martins - “Saúde mental dos estudantes”"
             }
         ]
     },
@@ -49,19 +53,31 @@
             },
             {
                 "horario": "GRAVADAS",
+                "tema": "Gustavo Cobucci - “Doenças endócrinas, um pouquinho de cada uma”"
+            },
+            {
+                "horario": "",
+                "tema": "Maria Gazzinelli - “Atualidades sobre o incremento da qualidade do sêmen equino! O que há de novo?”"
+            },
+            {
+                "horario": "",
                 "tema": "Renata Novais Mencalha - “Desvendando os mistérios do prurido em felinos”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Amanda Neri – “Mercado de trabalho na indústria leiteira para recém formados”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Magna Coroa - “A Microbioma e biotecnologia na produção de caprinos”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Ines Andretta - “Mitos e verdades da Suinocultura moderna”"
+            },
+            {
+                "horario": "19h PALESTRA AO VIVO",
+                "tema": "Alessandro Bijjeni - “Animais Silvestres como Pet no Brasil: qual o cenário atual?”"
             }
         ]
     },
@@ -70,35 +86,39 @@
         "palestras": [
             {
                 "horario": "8h - 11h",
-                "tema": "Rafael Bombachi  -“O que não te contaram sobre o gerenciamento de clínicas veterinárias''"
+                "tema": "Rafael Bombachi  -“Papel do Médico Veterinário em serviços de fiscalização relacionados aos produtos de origem animal”"
             },
             {
                 "horario": "MANHÃ",
-                "tema": "Gustavo Parreiras - “Papel do Médico Veterinário em serviços de fiscalização relacionados aos produtos de origem animal”"
+                "tema": "Gustavo Parreiras - “Educação continuada para tutor em clínica de gatos: quais os benefícios?”"
             },
             {
                 "horario": "GRAVADAS",
                 "tema": "Vinícius Albernaz - “Principais neoplasias na rotina cirúrgica em cães”"
             },
             {
-                "horario": "GRAVADAS",
-                "tema": "Abelardo Silva Júnior – “Afecções podais em bovinos: da fazenda ao laboratório””"
+                "horario": "",
+                "tema": "Abelardo Silva Júnior – “A medicina veterinária na saúde pública: experiência de um Médico Veterinário no diagnóstico da COVID19”"
             },
             {
-                "horario": "GRAVADAS",
-                "tema": "Tiago Facury - “A Microbioma e biotecnologia na produção de caprinos”"
+                "horario": "",
+                "tema": "Tiago Facury - “Afecções podais em bovinos: da fazenda ao laboratório”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Laís Ângelo de Abreua - “Evolução e perspectivas da inseminação artificial em fêmeas bovinas”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Pat Rober - “Enriquecimento ambiental felino”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Rafael Nudelman - “Casos clínicos na anestesiologia de animais silvestres”"
+            },
+            {
+                "horario": "19h PALESTRA AO VIVO",
+                "tema": "Renata Arruda - “Importância do prontuário na prevenção jurídica do médico veterinário”"
             }
         ]
     },
@@ -107,7 +127,7 @@
         "palestras": [
             {
                 "horario": "8h - 11h",
-                "tema": "Rafael Bombachi  -“Oftalmologia básica: o que o clínico deve saber?”"
+                "tema": "Michelle Gouvêa Gomes  -“Oftalmologia básica: o que o clínico deve saber?”"
             },
             {
                 "horario": "MANHÃ",
@@ -118,24 +138,16 @@
                 "tema": "Welden Panziera - “Toxicologia Veterinária”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Camila Utrera – “Oncologia em pequenos animais - Como lidar com pacientes terminais?”"
             },
             {
-                "horario": "GRAVADAS",
+                "horario": "",
                 "tema": "Ana Paula Simões - “Manejo de neonatos: você sabe de tudo?”"
             },
             {
-                "horario": "GRAVADAS",
-                "tema": "Henrique Machado - “Evolução e perspectivas da inseminação artificial em fêmeas bovinas”"
-            },
-            {
-                "horario": "GRAVADAS",
-                "tema": "Pat Rober - “Enriquecimento ambiental felino”"
-            },
-            {
-                "horario": "GRAVADAS",
-                "tema": "Rafael Nudelman - “Endoscopia digestiva: doenças esofágicas, gástricas e intestinais. Como proceder?”"
+                "horario": "",
+                "tema": "Henrique Machado - “Endoscopia digestiva: doenças esofágicas, gástricas e intestinais. Como proceder?”"
             }
         ]
     },

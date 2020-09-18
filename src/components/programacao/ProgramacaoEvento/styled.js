@@ -27,7 +27,8 @@ export const DayBox = styled.div`
   background-color: #fff;
   border-radius: 20px;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
 `
 export const TitleBox = styled.div`
   display: flex;
@@ -56,7 +57,7 @@ export const Title = styled.h1`
   `}
 `
 export const GridContainer = styled.div`
-  margin-top: 20px;
+  margin-top: 0;
   width: 100%;
 `
 export const Row = styled.div`
@@ -68,7 +69,24 @@ export const Row = styled.div`
   grid-template-columns: 30% 70%;
   `}
 `
+
+export const RowGravadas = styled.div`
+  font-family: "Roboto Condensed";
+  display: grid;
+  grid-template-columns: 5fr;
+
+  ${media.lessThan("700px")`
+  grid-template-columns: 30% 70%;
+  `}
+`
+
 export const Column = styled.div`
   display: inline-block;
+  padding: 15px;
+`
+
+export const ColumnGravadas = styled.div`
+  display: inline-block;
+  text-align: center;
   padding: 15px;
 `
