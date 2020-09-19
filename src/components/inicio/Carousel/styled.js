@@ -115,7 +115,7 @@ export const SetImg = styled(Img)`
       height: 200px;
       width: 200px;
     `}
-  
+
   ${media.lessThan("544px")`
     ${props =>
       props.active === "activeAvatar" &&
@@ -211,7 +211,7 @@ export const TextBox = styled.p`
     padding: 10px;
   `}
 `
-export const Text = styled.p`
+export const Text = styled.span`
   text-align: justify;
   z-index: 99;
 `
