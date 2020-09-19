@@ -130,12 +130,12 @@ export const TableTitle = styled.h1`
   font-weight: bold;
 
   ${media.lessThan("910px")`
-    font-size: 26px;
+    font-size: 22px;
     line-height: 50px;
   `}
 
-  ${media.lessThan("388px")`
-    font-size: 18px;
+  ${media.lessThan("500px")`
+    font-size: 17px;
   `}
 `
 export const GridContainer = styled.div`
