@@ -17,7 +17,7 @@ const ProgramacaoEvento = () => {
                 {el.palestras.map((palestra, i) => {
                   return (
                     <S.Row titulo={palestra.horario}
-                      style={i % 2 !== 0 && palestra.horario !== "TITULO" ? { backgroundColor: "#eee" } : {}}
+                      style={palestra.horario === 'AGUARDE' ? { backgroundColor: "#bbf7b2" } : i % 2 !== 0 && palestra.horario !== "TITULO" ? { backgroundColor: "#eee" } : {}}
                       key={Math.random()}
                     >
                       <S.Column />
