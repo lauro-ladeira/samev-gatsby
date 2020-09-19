@@ -153,7 +153,7 @@ export const Row = styled.div`
   ${media.lessThan("760px")`
     padding: 0 0;
     font-size: 14px;
-    grid-template-columns: 1fr 1.3fr 1fr;
+    grid-template-columns: 1fr 1.3fr .8fr;
   `}
 
   /* ${media.lessThan("700px")`
