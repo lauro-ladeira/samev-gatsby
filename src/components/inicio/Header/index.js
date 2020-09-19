@@ -9,7 +9,7 @@ const Header = () => {
           <S.Title>XXII SAMEV</S.Title>
           <S.Description
             style={{
-              color: "#BBF6B2",
+              color: "#79cd55",
               fontWeight: "normal",
             }}
           >

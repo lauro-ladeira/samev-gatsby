@@ -31,7 +31,7 @@ export const Title = styled.h1`
   `}
 `
 
-export const Description = styled.h1`
+export const Description = styled.p`
 
   color: #333;
   font-family: "Roboto Condensed";
