@@ -52,7 +52,7 @@ export const Title = styled.h1`
     line-height: 50px;
   `}
 
-  ${media.lessThan("388px")`
+  ${media.lessThan("550px")`
     font-size: 18px;
   `}
 `
@@ -65,34 +65,43 @@ export const Row = styled.div`
   font-family: "Roboto Condensed";
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  background-color: ${props => props.titulo === 'TITULO' ? ' #1f7874' : props.titulo === 'AGUARDE' ? '#bbf7b2' : ''};
-
-  /* ${media.lessThan("700px")`
-  grid-template-columns: 30% 70%;
-  `} */
-`
-
-/* export const RowGravadas = styled.div`
-  font-family: "Roboto Condensed";
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  background-color: ${props =>
+    props.titulo === "TITULO"
+      ? " #1f7874"
+      : props.titulo === "AGUARDE"
+      ? "#bbf7b2"
+      : ""};
 
   ${media.lessThan("700px")`
-  grid-template-columns: 30% 70%;
+    grid-template-columns: .5fr 8fr .5fr;
   `}
-` */
+`
 
 export const Column = styled.div`
   line-height: 19px;
   display: inline-block;
   padding: 15px;
-  text-align: ${props => props.titulo === 'TITULO' || props.titulo === 'AGUARDE' ? 'center' : ''};
-  font-family: ${props => props.titulo === 'TITULO' ? 'Montserrat' : ''};
-  color: ${props => props.titulo === 'TITULO' ? '#fff' : ''}
+  text-align: ${props =>
+    props.titulo === "TITULO" || props.titulo === "AGUARDE" ? "center" : ""};
+  font-family: ${props => (props.titulo === "TITULO" ? "Montserrat" : "")};
+  color: ${props => (props.titulo === "TITULO" ? "#fff" : "")};
+  ${media.lessThan("550px")`
+    font-size: ${props => (props.titulo === "TITULO" ? "14px" : "")};
+  `}
 `
 
-/* export const ColumnGravadas = styled.div`
+export const Palestrante = styled.span`
+  font-weight: bold;
+  cursor: pointer;
+  transition: font-size 0.6s;
+
+  &:hover,
+  &:focus {
+    font-size: 17px;
+  }
+`
+
+export const PalestranteWrapper = styled.div`
   display: inline-block;
-  text-align: center;
-  padding: 15px;
-` */
+  height: 18px;
+`
