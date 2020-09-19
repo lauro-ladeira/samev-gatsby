@@ -3,7 +3,7 @@ import media from "styled-media-query"
 import Img from "gatsby-image"
 
 export const CarouselWrapper = styled.div`
-  background: linear-gradient(180deg, #bbf7b2 0%, #6bc1dd 100%);
+  background: linear-gradient(180deg, #0c525e 0%, #00b08c 100%);
   width: 100%;
   height: 455px;
 `
@@ -21,8 +21,8 @@ export const CarouselContainer = styled.div`
 `
 
 export const Title = styled.h1`
-  color: #060761;
-  font-family: "Roboto Condensed";
+  color: #fff;
+  font-family: "Montserrat";
   font-size: 36px;
   font-weight: bold;
   line-height: 42px;
@@ -84,7 +84,7 @@ export const CardNome = styled.h1`
   font-family: "Roboto Condensed", "sans-serif";
   font-size: 18px;
   font-weight: bold;
-  color: #060761;
+  color: #11124d;
   margin-bottom: 10px;
   text-align: center;
 `
@@ -138,7 +138,7 @@ export const Box = styled.div`
       top: 50px;
       background-color: white;
       border-radius: 20px;
-      box-shadow: 0 0 0 130vw rgba(9, 7, 97, 0.9);
+      box-shadow: 0 0 0 130vw rgba(12, 82, 94, 0.9);
       padding: 20px;
       max-height: 90vh;
       width: 60%;
@@ -185,7 +185,7 @@ export const CloseButton = styled.a`
   right: 0;
 
   background-color: transparent;
-  color: #060761;
+  color: #0c525e;
   cursor: pointer;
   font-size: 38px;
   font-weight: bold;

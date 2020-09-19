@@ -29,6 +29,11 @@
             },
             {
                 "horario": "",
+                "tema": " – “Clonagem por transferência Nuclear em Bovinos”",
+                "palestrante": "Marco Roberto Bourg de Mello"
+            },
+            {
+                "horario": "",
                 "tema": " – “Cirurgias cranioencefálicas em cães e gatos : qual a realidade no Brasil?”",
                 "palestrante": "Bruno Benetti"
             },
@@ -36,6 +41,11 @@
                 "horario": "",
                 "tema": " – “Atualizações do Programa Nacional de Sanidade Suídea”",
                 "palestrante": "Mariana Costa Fausto"
+            },
+            {
+                "horario": "",
+                "tema": " – “Neonatologia Equina: a importância dos primeiros cuidados”",
+                "palestrante": "Fernanda Timbó"
             },
             {
                 "horario": "",
@@ -103,9 +113,9 @@
                 "palestrante": "Ines Andretta"
             },
             {
-                "horario": "",
+                "horario": "AGUARDE",
                 "tema": "",
-                "palestrante": "AGUARDE NOVIDADES..."
+                "palestrante": "AGUARDE NOVIDADES"
             },
             {
                 "horario": "TITULO",
@@ -168,9 +178,9 @@
                 "palestrante": "Rafael Nudelman"
             },
             {
-                "horario": "",
+                "horario": "AGUARDE",
                 "tema": "",
-                "palestrante": "AGUARDE NOVIDADES..."
+                "palestrante": "AGUARDE NOVIDADES"
             },
             {
                 "horario": "TITULO",
@@ -223,6 +233,11 @@
                 "palestrante": "Henrique Machado"
             },
             {
+                "horario": "AGUARDE",
+                "tema": "",
+                "palestrante": "AGUARDE NOVIDADES"
+            },
+            {
                 "horario": "TITULO",
                 "tema": "",
                 "palestrante": "Palestra AO VIVO 19h"
@@ -258,9 +273,9 @@
                 "palestrante": "Ana Flávia Chizzotti"
             },
             {
-                "horario": "",
+                "horario": "AGUARDE",
                 "tema": "",
-                "palestrante": "AGUARDE NOVIDADES..."
+                "palestrante": "AGUARDE NOVIDADES"
             },
             {
                 "horario": "TITULO",

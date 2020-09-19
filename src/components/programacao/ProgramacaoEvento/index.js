@@ -16,8 +16,8 @@ const ProgramacaoEvento = () => {
               <S.GridContainer>
                 {el.palestras.map((palestra, i) => {
                   return (
-                    <S.Row
-                      style={i % 2 !== 0 ? { backgroundColor: "#eee" } : {}}
+                    <S.Row titulo={palestra.horario}
+                      style={i % 2 !== 0 && palestra.horario !== "TITULO" ? { backgroundColor: "#eee" } : {}}
                       key={Math.random()}
                     >
                       <S.Column />

@@ -18,7 +18,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Roboto Condensed", "Roboto"],
+          families: ["Roboto Condensed", "Roboto", "Montserrat"],
         },
       },
     },
@@ -37,8 +37,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#060761`,
-        theme_color: `#060761`,
+        background_color: `#0C525E`,
+        theme_color: `#0C525E`,
         display: `minimal-ui`,
         icon: `src/images/samev-icon-3.png`, // This path is relative to the root of the site.
       },

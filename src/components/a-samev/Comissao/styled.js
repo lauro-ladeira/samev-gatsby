@@ -2,7 +2,7 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const ComissaoWrapper = styled.div`
-  background: linear-gradient(180deg, #bbf7b2 0%, #6bc1dd 100%);
+  background: linear-gradient(180deg, #bbf7b2 0%, #00b08c 100%);
   width: 100%;
 `
 export const ComissaoContainer = styled.div`
@@ -16,8 +16,8 @@ export const ComissaoContainer = styled.div`
 `
 
 export const Title = styled.h1`
-  color: #060761;
-  font-family: "Roboto Condensed";
+  color: #0c525e;
+  font-family: "Montserrat";
   font-size: 36px;
   font-weight: bold;
   line-height: 42px;
