@@ -6,8 +6,8 @@ import HeaderImage from "./HeaderImage"
 // import HeaderImage from "../../../images/pessoas-samev-2019.jpg"
 
 export const HeaderWrapper = styled(HeaderImage)`
-  background-position: center;
-  background-color: #060761;
+  background-position: top;
+  background-color: #0c525e;
   width: 100%;
   height: 100vh;
 `
@@ -79,7 +79,7 @@ export const Title = styled.h1`
   font-size: 48px;
   line-height: 62px;
   color: #ffffff;
-  font-family: 'Roboto Condensed';
+  font-family: 'Montserrat';
   font-weight: bold;
 
   ${media.lessThan("910px")`
@@ -99,6 +99,7 @@ export const Title = styled.h1`
 `
 
 export const Description = styled(Title)`
+  font-family: "Roboto Condensed";
   font-size: 36px;
   line-height: 46px;
 
@@ -114,11 +115,11 @@ export const Description = styled(Title)`
 `
 
 export const Color = styled(Description)`
-  color: #f6ab00;
+  color: #bbf7b2;
 `
 export const ColorSmaller = styled(Description)`
   display: block;
-  color: #f6ab00;
+  color: #bbf7b2;
   font-size: 24px;
 
   ${media.lessThan("910px")`
@@ -136,12 +137,12 @@ export const Button = styled(Link)`
   padding: 10px 56px;
 
   display: block;
-  background: #f6ab00;
+  background: #bbf7b2;
   border-radius: 10px;
   border: none;
-  color: #060761;
+  color: #0C525E;
 
-  font-family: Roboto Condensed;
+  font-family: "Roboto Condensed";
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -149,4 +150,13 @@ export const Button = styled(Link)`
   text-decoration: none;
 
   white-space: nowrap;
+
+  transition: transform 0.6s;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+      background: #00b08c;
+      color: #fff;
+    }
 `

@@ -4,7 +4,7 @@ import media from "styled-media-query"
 export const Wrapper = styled.div`
   width: 100%;
   height: auto;
-  background-color: #060761;
+  background-color: #0c525e;
 `
 
 export const Container = styled.div`
@@ -31,12 +31,12 @@ export const Contato = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: "Roboto Condensed";
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: left;
-  color: #f6ab00;
+  color: #bbf7b2;
   margin-bottom: 23px;
 
   ${media.lessThan("medium")`
@@ -96,10 +96,10 @@ export const socialMediaContainer = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #f6ab00;
+  background-color: #bbf7b2;
 `
 
 export const socialMediaLink = styled.a`
   display: inline-block;
-  color: #060761;
+  color: #0c525e;
 `

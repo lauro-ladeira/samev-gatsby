@@ -38,11 +38,11 @@ export const Container = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: "Roboto Condensed";
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  color: #060761;
+  color: #0c525e;
   margin-bottom: 10px;
   text-align: center;
 `
@@ -52,7 +52,7 @@ export const Subtitle = styled.h2`
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  color: #f6ab00;
+  color: #00b08c;
   margin: 30px 0;
   text-align: center;
 `
@@ -101,13 +101,14 @@ export const Button = styled.button`
   background-color: #bbf7b2;
   border: none;
   border-radius: 10px;
-  color: #060761;
+  color: #0c525e;
   font-family: "Roboto Condensed";
   font-size: 16px;
   padding: 10px 20px;
   margin-top: 20px;
 
   &:hover {
-    background-color: #6bc1dd;
+    background-color: #0c525e;
+    color: #bbf7b2;
   }
 `

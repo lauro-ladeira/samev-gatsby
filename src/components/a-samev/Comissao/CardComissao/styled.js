@@ -71,7 +71,7 @@ export const CardNome = styled.h1`
   font-weight: bold;
   font-size: 16px;
   line-height: 15px;
-  color: #060761;
+  color: #0c525e;
 
   ${props =>
     props.active === "activeName" &&
@@ -102,7 +102,7 @@ export const CardFunction = styled.h2`
   font-weight: bold;
   font-size: 16px;
   line-height: 15px;
-  color: #060761;
+  color: #0c525e;
 
   ${props =>
     props.active === "activeFunction" &&
@@ -130,7 +130,7 @@ export const CardButton = styled.a`
   bottom: 0;
   right: 0;
 
-  background-color: #060761;
+  background-color: #0c525e;
   color: #fff;
   cursor: pointer;
   font-size: 28px;
@@ -153,7 +153,7 @@ export const Box = styled.div`
       top: 50px;
       background-color: white;
       border-radius: 20px;
-      box-shadow: 0 0 0 130vw rgba(9, 7, 97, 0.9);
+      box-shadow: 0 0 0 130vw rgba(12, 82, 94, 0.9);
       padding: 20px;
       max-height: 90vh;
       width: 60%;
@@ -200,7 +200,7 @@ export const CloseButton = styled.a`
   right: 0;
 
   background-color: transparent;
-  color: #060761;
+  color: #0c525e;
   cursor: pointer;
   font-size: 38px;
   font-weight: bold;

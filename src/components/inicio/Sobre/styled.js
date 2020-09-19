@@ -18,11 +18,11 @@ export const Container = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: "Roboto Condensed";
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  color: #060761;
+  color: #0C525E;
 
   margin-bottom: 10px;
 
@@ -55,10 +55,10 @@ export const Button = styled(Link)`
   padding: 11px 49px;
 
   display: block;
-  background: #bbf7b2;
+  background: #0C525E;
   border-radius: 10px;
   border: none;
-  color: #060761;
+  color: #bbf7b2;
 
   font-family: "Roboto Condensed";
   font-weight: bold;

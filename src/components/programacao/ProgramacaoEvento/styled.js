@@ -3,7 +3,7 @@ import media from "styled-media-query"
 
 export const ProgramacaoWrapper = styled.div`
   width: 100%;
-  background-color: #6bc1dd;
+  background-color: #fff;
 `
 
 export const ProgramacaoContainer = styled.div`
@@ -24,17 +24,17 @@ export const DayBox = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #ddd;
   border-radius: 20px;
   width: 100%;
   padding-bottom: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 `
 export const TitleBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #060761;
+  background-color: #0c525e;
   border-radius: 20px 20px 0 0;
   height: 50px;
   width: 100%;
@@ -43,8 +43,8 @@ export const TitleBox = styled.div`
 export const Title = styled.h1`
   font-size: 30px;
   line-height: 35px;
-  color: #fff;
-  font-family: "Roboto Condensed";
+  color: #bbf7b2;
+  font-family: "Montserrat";
   font-weight: bold;
 
   ${media.lessThan("910px")`
@@ -53,7 +53,7 @@ export const Title = styled.h1`
   `}
 
   ${media.lessThan("388px")`
-    font-size: 22px;
+    font-size: 18px;
   `}
 `
 export const GridContainer = styled.div`
@@ -65,10 +65,11 @@ export const Row = styled.div`
   font-family: "Roboto Condensed";
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
+  background-color: ${props => props.titulo === 'TITULO' ? ' #1f7874' : props.titulo === 'AGUARDE' ? '#bbf7b2' : ''};
 
-  ${media.lessThan("700px")`
+  /* ${media.lessThan("700px")`
   grid-template-columns: 30% 70%;
-  `}
+  `} */
 `
 
 /* export const RowGravadas = styled.div`
@@ -85,7 +86,9 @@ export const Column = styled.div`
   line-height: 19px;
   display: inline-block;
   padding: 15px;
-  text-align: ${props => props.titulo === 'TITULO' ? 'center' : ''};
+  text-align: ${props => props.titulo === 'TITULO' || props.titulo === 'AGUARDE' ? 'center' : ''};
+  font-family: ${props => props.titulo === 'TITULO' ? 'Montserrat' : ''};
+  color: ${props => props.titulo === 'TITULO' ? '#fff' : ''}
 `
 
 /* export const ColumnGravadas = styled.div`

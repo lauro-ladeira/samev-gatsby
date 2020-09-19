@@ -4,7 +4,7 @@ import media from "styled-media-query"
 
 export const NavbarWrapper = styled.div`
   align-items: center;
-  background-color: #060761;
+  background-color: #0C525E;
   display: flex;
   height: 100px;
   justify-content: center;
@@ -20,7 +20,7 @@ export const NavbarWrapper = styled.div`
     props.scroll > 0 &&
     props.scroll < 200 &&
     css`
-      background-color: rgba(6, 7, 97, ${props.scroll * (1 / 400)});
+      background-color: rgba(12, 82, 94, ${props.scroll * (1 / 400)});
       box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
       height: calc(100px - ${props.scroll * (40 / 200)}px);
     `}
@@ -28,7 +28,7 @@ export const NavbarWrapper = styled.div`
   ${props =>
     props.scroll >= 200 &&
     css`
-      background-color: rgba(0, 7, 97, 1);
+      background-color: rgba(12, 82, 94, 1);
       box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
       height: 60px;
     `}
@@ -98,12 +98,12 @@ export const MenuLink = styled(Link)`
 
   &:active,
   &:hover {
-    color: #f6ab00;
+    color: #85F0A5;
   }
 
   ${media.lessThan("804px")`
     display: block;
-    color: #060761;
+    color: #0C525E;
     border-bottom: 1px solid #ddd;
     font-size: 20px;
     padding: 6% 20px;
@@ -163,7 +163,7 @@ export const BurgerLine = styled.div`
   width: 25px;
   height: 3px;
   margin: 5px;
-  background-color: #060761;
+  background-color: #0C525E;
   transition: all .3s ease;
 
   ${props =>

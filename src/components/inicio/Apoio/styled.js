@@ -17,11 +17,11 @@ export const Container = styled.div`
 `
 
 export const Title = styled.h1`
-  font-family: "Roboto Condensed";
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  color: #060761;
+  color: #0c525e;
 
   margin-bottom: 20px;
 `

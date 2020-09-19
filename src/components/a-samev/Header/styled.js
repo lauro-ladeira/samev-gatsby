@@ -66,7 +66,7 @@ export const Title = styled.h1`
   font-size: 48px;
   line-height: 62px;
   color: #ffffff;
-  font-family: 'Roboto Condensed';
+  font-family: 'Montserrat';
   font-weight: bold;
 
   ${media.lessThan("910px")`
