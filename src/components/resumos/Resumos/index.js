@@ -17,8 +17,18 @@ const Resumos = () => {
           in, tempor dignissim ex.
         </S.Description>
         <S.ButtonsContainer>
-          <S.Button>Edital</S.Button>
-          <S.Button>Modelo de Resumo</S.Button>
+          <S.Button
+            to="https://drive.google.com/file/d/12Qcj8aUrI74yt2arY8rFG26sBCEsVos_/view?usp=sharing"
+            target="_blank"
+          >
+            Edital
+          </S.Button>
+          <S.Button
+            to="https://drive.google.com/file/d/1zsS10pwjpM--eyfSGml1m-qQkUkoL0BZ/view?usp=sharing"
+            target="_blank"
+          >
+            Modelo de Resumo
+          </S.Button>
         </S.ButtonsContainer>
         <S.Title>Resumos</S.Title>
       </S.Container>
