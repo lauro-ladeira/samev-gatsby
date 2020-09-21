@@ -150,6 +150,21 @@
         ]
     },
     {
+        "nome": "Gustavo Cobucci",
+        "especialidade": "Médico Veterinário",
+        "descricao": [
+            {
+                "topico": "Médico veterinário graduado pela Universidade Federal de Minas Gerais; residência em Clínica e Cirurgia de Cães e Gatos pela Universidade Federal de Viçosa; mestrado pela UFV; pós-graduação pelo Senac, em São Paulo; doutorado pela Universidade Federal de Lavras; pós-graduando em endocrinologia e metabologia pela Anclivepa, em São Paulo; professor titular da Univiçosa, em Viçosa, Minas Gerais."
+            }
+        ],
+        "src": "../images/palestrantes/Gustavo Cobucci.jpg",
+        "palestras": [
+            {
+                "tema": "Doenças endócrinas, um pouquinho de cada um"
+            }
+        ]
+    },
+    {
         "nome": "Magna Coroa",
         "especialidade": "Médica Veterinária",
         "descricao": [
@@ -262,13 +277,7 @@
         "especialidade": "Médico Veterinário e Empresário",
         "descricao": [
             {
-                "topico": "• Fábio Fidelis é Veterinário e Empresário do Hospital Veterinário Cambuá;"
-            },
-            {
-                "topico": "• Mais de 10 milhões investidos no mercado pet;"
-            },
-            {
-                "topico": "• Revolucionou o Hospital Veterinário Cambuá em 5 anos, aumentou em mais de 40 vezes o seu faturamento."
+                "topico": "Médico Veterinário e Empresário do Hospital Veterinário Cambuá; possui mais de 10 milhões investidos no mercado pet, sendo um dos responsáveis por aumentar em mais de 40 vezes o faturamento do Hospital Veterinário Cambuá em 5 anos."
             }
         ],
         "src": "../images/palestrantes/fabio-fidelis.jpg",
