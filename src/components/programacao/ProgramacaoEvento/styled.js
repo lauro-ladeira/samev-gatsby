@@ -101,6 +101,10 @@ export const Palestrante = styled.span`
   }
 `
 
+export const TableTitle = styled.span`
+  font-weight: bold;
+`
+
 export const PalestranteWrapper = styled.div`
   display: inline-block;
   height: 18px;

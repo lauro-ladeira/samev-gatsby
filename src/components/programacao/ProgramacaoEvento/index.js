@@ -27,6 +27,24 @@ const ProgramacaoEvento = () => {
   const toggleClassName = p => {
     const currentState = active
     setActive(!currentState)
+    if (
+      [
+        "Maricy Apparício",
+        "Gustavo Cobucci",
+        "Rafael Bombachi",
+        "Laís Ângelo de Abreu",
+        "Camila Utrera",
+        "Ana Paula Simões",
+        "Henrique Machado",
+        "Mariana Costa Fausto",
+        "Abelardo Silva Júnior",
+        "Carine Stefanello",
+        "Ana Flávia Chizzotti",
+        "A CONFIRMAR",
+      ].includes(p)
+    ) {
+      return setPalestranteActive("Aguarde informações!")
+    }
     setPalestranteActive(p)
   }
 
@@ -120,14 +138,22 @@ const ProgramacaoEvento = () => {
                       <S.Column />
                       <S.Column titulo={palestra.horario}>
                         <S.PalestranteWrapper>
-                          <S.Palestrante
-                            onClick={() =>
-                              toggleClassName(palestra.palestrante)
-                            }
-                            active={active ? "activeClose" : null}
-                          >
-                            {palestra.palestrante}
-                          </S.Palestrante>
+                          {![
+                            "Palestras GRAVADAS - Disponíveis a partir das 10h",
+                            "AGUARDE NOVIDADES",
+                            "Palestra AO VIVO 19h",
+                          ].includes(palestra.palestrante) ? (
+                            <S.Palestrante
+                              onClick={() =>
+                                toggleClassName(palestra.palestrante)
+                              }
+                              active={active ? "activeClose" : null}
+                            >
+                              {palestra.palestrante}
+                            </S.Palestrante>
+                          ) : (
+                            <S.TableTitle>{palestra.palestrante}</S.TableTitle>
+                          )}
                         </S.PalestranteWrapper>
                         {palestra.tema}{" "}
                       </S.Column>
@@ -145,65 +171,3 @@ const ProgramacaoEvento = () => {
 }
 
 export default ProgramacaoEvento
-
-/* import React from "react"
-import * as S from "./styled"
-
-const ProgramacaoEvento = () => {
-  return (
-    <S.ProgramacaoWrapper>
-      <S.ProgramacaoContainer>
-        <S.DayBox>
-          <S.TitleBox>
-            <S.Title>24/11 - TERÇA-FEIRA</S.Title>
-          </S.TitleBox>
-          <S.GridContainer>
-            <S.Row>
-              <S.Column style={{ fontWeight: "bold", textAlign: "center" }}>8h - 11h</S.Column>
-              <S.Column>
-                VÍDEO DE ABERTURA - COMISSÃO COORDENADORA SAMEV 2020{" "}
-              </S.Column>
-            </S.Row>
-            <S.Row style={{ backgroundColor: "#eee" }}>
-              <S.Column style={{ fontWeight: "bold", textAlign: "center" }}>8h - 11h</S.Column>
-              <S.Column>
-                Carla Maris Machado Bittar - "Colostragem: Como obter a máxima
-                eficiência na transferência de imunidade passiva"
-              </S.Column>
-            </S.Row>
-            <S.Row>
-              <S.Column style={{ fontWeight: "bold", textAlign: "center" }}>MANHÃ</S.Column>
-              <S.Column>
-                Júlia Pessoa - “Fisioterapia em pequenos animais: modalidades
-                terapêuticas”{" "}
-              </S.Column>
-            </S.Row>
-            <S.Row style={{ backgroundColor: "#eee" }}>
-              <S.Column style={{ fontWeight: "bold", textAlign: "center" }}>GRAVADAS</S.Column>
-              <S.Column>
-                Shara Regina – “Leishmaniose, esporotricose e a atuação do
-                médico veterinário no Centro de Controle de Zoonoses”
-              </S.Column>
-            </S.Row>
-            <S.Row>
-              <S.Column style={{ fontWeight: "bold", textAlign: "center" }}>8h - 11h</S.Column>
-              <S.Column>
-                Tays Araujo Camilo - "As aves e a saúde pública"
-              </S.Column>
-            </S.Row>
-            <S.Row style={{ backgroundColor: "#eee" }}>
-              <S.Column style={{ fontWeight: "bold", textAlign: "center" }}>8h - 11h</S.Column>
-              <S.Column>
-                Marco Roberto Bourg de Mello - " Clonagem por transferência
-                Nuclear em Bovinos"
-              </S.Column>
-            </S.Row>
-          </S.GridContainer>
-        </S.DayBox>
-      </S.ProgramacaoContainer>
-    </S.ProgramacaoWrapper>
-  )
-}
-
-export default ProgramacaoEvento
- */
