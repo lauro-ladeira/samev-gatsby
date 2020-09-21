@@ -1,7 +1,7 @@
 import React from "react"
 import * as S from "./styled"
 
-import resumos from "../../../data/resumos.json"
+/* import resumos from "../../../data/resumos.json" */
 
 const Resumos = () => {
   return (
@@ -30,9 +30,9 @@ const Resumos = () => {
             Modelo de Resumo
           </S.Button>
         </S.ButtonsContainer>
-        <S.Title>Resumos</S.Title>
+{/*         <S.Title>Resumos</S.Title> */}
       </S.Container>
-      <S.ResumosContainer>
+{/*       <S.ResumosContainer>
         {resumos.map(el => {
           return (
             <S.Card key={Math.random()}>
@@ -49,7 +49,7 @@ const Resumos = () => {
             </S.Card>
           )
         })}
-      </S.ResumosContainer>
+      </S.ResumosContainer> */}
     </S.Wrapper>
   )
 }

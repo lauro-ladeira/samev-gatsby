@@ -129,7 +129,7 @@ const Palestrantes = () => {
           {data.allPalestrantesJson.nodes.map(palestrante => {
             if (palestrante.nome === palestranteActive.nome) {
               return palestranteActive.descricao.map(el => {
-                return <S.Text key={Math.random()}>{el.topico}</S.Text>
+                return <S.Text key={Math.random()}>{el.topico}<br /></S.Text>
               })
             }
             return null
