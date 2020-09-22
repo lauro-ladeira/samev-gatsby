@@ -7,14 +7,20 @@ const Resumos = () => {
   return (
     <S.Wrapper>
       <S.Container>
-        {/* <S.Title>Informações em breve</S.Title> */}
+        <S.Title>Submissão de resumos</S.Title>
         <S.Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante
-          dolor, molestie ut nisi nec, luctus eleifend dolor. Donec in lobortis
-          leo. Pellentesque venenatis lacus non enim mollis vehicula. Vestibulum
-          nec rhoncus tortor. Donec aliquet egestas pulvinar. Praesent eget
-          lorem eget diam semper porta. Aliquam ante nisl, faucibus non tellus
-          in, tempor dignissim ex.
+          Os participantes da XXII SAMEV terão o direito de submeter até dois
+          trabalhos, podendo ser de pesquisa, extensão ou relato de caso. Os
+          resumos ficarão expostos neste site durante os dias 24 de novembro a 8
+          de dezembro de 2020, no formato de painel. Os interessados devem
+          enviar um e-mail com o(s) resumo(s) e painel (eis) anexados para
+          samev.vet@gmail.com.br. O assunto deverá ser “SUBMISSÃO DE RESUMOS”,
+          sendo que este deve ser enviado entre os dias 29 de setembro à 20 de
+          outubro de 2020. Em nosso EDITAL DE SUBMISSÃO DE RESUMOS, os
+          interessados encontrarão mais informações gerais e específicas sobre
+          como realizar todo processo de submissão. Abaixo, em “Modelo de
+          Resumo”, encontra-se disponível um esboço de como o resumo deve ser
+          formulado.
         </S.Description>
         <S.ButtonsContainer>
           <S.Button
@@ -30,9 +36,9 @@ const Resumos = () => {
             Modelo de Resumo
           </S.Button>
         </S.ButtonsContainer>
-{/*         <S.Title>Resumos</S.Title> */}
+        {/*         <S.Title>Resumos</S.Title> */}
       </S.Container>
-{/*       <S.ResumosContainer>
+      {/*       <S.ResumosContainer>
         {resumos.map(el => {
           return (
             <S.Card key={Math.random()}>

@@ -53,6 +53,7 @@ export const ButtonsContainer = styled.div`
   `}
 `
 export const Button = styled(Link)`
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   align-items: center;
